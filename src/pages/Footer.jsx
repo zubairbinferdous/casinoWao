@@ -2,7 +2,6 @@ import React from "react";
 import logo1 from '../assets/footer-BeGambleAware.svg';
 import logo2 from '../assets/footer-gamcare.svg';
 import logo3 from '../assets/footer-GAMSTOP.svg';
-import footerTitleOne from '../assets/footer-guides(1).svg';
 import logo4 from '../assets/GPWA.svg';
 import logo from '../assets/logo.png';
 import logo5 from '../assets/paysafe-icon.svg';
@@ -13,7 +12,7 @@ const Footer = () => {
     <div>
       <footer className="mt-50">
         <div className="container">
-          <div className="row">
+          {/* <div className="row footer-boder-bottom">
             <div className="col-md-4">
               <div className="footer-info-area-dat d-flex">
                 <img src={footerTitleOne} alt="" />
@@ -22,19 +21,19 @@ const Footer = () => {
             </div>
             <div className="col-md-4">
               <div className="footer-info-area-dat d-flex">
-                <img src={footerTitleOne} alt="" />
+                <img src={footerTitleTwo} alt="" />
                 <h2>	
                 News</h2>
               </div>
             </div>
             <div className="col-md-4">
               <div className="footer-info-area-dat d-flex">
-                <img src={footerTitleOne} alt="" />
+                <img src={footerTitleThree} alt="" />
                 <h2>Help</h2>
               </div>
             </div>
          
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-md-3 logo-area">
               <div className="logo"><img src={logo} alt="" /></div>

@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import './index.css'
-import About from './pages/About.jsx'
-import Home from './pages/Home.jsx'
+import AllCasino from './pages/AllCasino.jsx'
+import BetReview from './pages/BetReview.jsx'
 
 
 const router = createBrowserRouter([
@@ -14,12 +14,12 @@ const router = createBrowserRouter([
     element:<App></App>
   },
   {
-    path:'/about',
-    element:<About></About>
+    path:'/allCasino',
+    element:<AllCasino></AllCasino>
   },
   {
-    path:'/home',
-    element:<Home></Home>
+    path:'/BetReview',
+    element:<BetReview></BetReview>
   },
  
 ]);

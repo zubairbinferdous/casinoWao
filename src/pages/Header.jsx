@@ -58,7 +58,7 @@ const Header = () => {
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/Live">
+                          <a className="dropdown-item" href="/allCasino">
                           All Casino Reviews
                           </a>
                         </li>
