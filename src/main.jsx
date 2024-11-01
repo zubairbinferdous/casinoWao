@@ -6,6 +6,9 @@ import App from './App.jsx'
 import './index.css'
 import AllCasino from './pages/AllCasino.jsx'
 import BetReview from './pages/BetReview.jsx'
+import LdReview from './pages/LdReview.jsx'
+import Lucky from './pages/Lucky.jsx'
+import LvCasino from './pages/LvCasino.jsx'
 
 
 const router = createBrowserRouter([
@@ -20,6 +23,22 @@ const router = createBrowserRouter([
   {
     path:'/BetReview',
     element:<BetReview></BetReview>
+  },
+  {
+    path:'/lvCasino',
+    element:<LvCasino></LvCasino>
+  },
+  {
+    path:'/luckyCasino',
+    element:<Lucky></Lucky>
+  },
+  {
+    path:'/luckyDream',
+    element:<LdReview></LdReview>
+  },
+  {
+    path:'/wazaCasino',
+    element:<LdReview></LdReview>
   },
  
 ]);

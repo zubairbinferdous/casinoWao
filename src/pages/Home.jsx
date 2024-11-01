@@ -1,10 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "../App.css";
-import bit from "../assets/bitstarz-casino-icon.webp";
+import betF from '../assets/betflare-io-casino-icon.webp';
+import bet from '../assets/Betsafe-icon2.webp';
+import bitkit from '../assets/bitkingz-icon.webp';
 import cas from "../assets/casino-bonuses(1).webp";
 import casinoBottom from '../assets/casinowow-bottom-logo-home-page(1).png';
 import wow from "../assets/CasinoWow-Emoji-homepage.webp";
+import forr from '../assets/FortunePanda-casino-icon.webp';
+import gos from '../assets/goslot-casino-icon.webp';
 import helloWeen from "../assets/HalloWOWeen-game.webp";
 import imgOne from "../assets/home-top1.svg";
 import imgTwo from "../assets/home-top2.svg";
@@ -12,7 +16,17 @@ import imgThree from "../assets/home-top3.svg";
 import imgFour from "../assets/home-top4.svg";
 import imgFive from "../assets/home-top5.svg";
 import imgSix from "../assets/home-top6.svg";
+import imr from '../assets/Immerion-casino-icon.webp';
+import lett from '../assets/letslucky-casino-icon (1).webp';
+import ld from '../assets/lucky-dreams-icone.png';
+import lv from '../assets/lvbet.webp';
+import nomi from '../assets/nomini-casino-icon.webp';
+import rock from '../assets/roobet-casino-icon.png';
+import sat from '../assets/SatoshiHero-casino-icon (1).webp';
+import slo from '../assets/Slotuna-casino-icon.webp';
 import fiveCasino from "../assets/top-five-online-casinos (1).jpg";
+import waz from '../assets/wazamba-casino-icon1.png';
+import ybet from '../assets/Ybets-casino-icon.webp';
 
 const Home = () => {
   return (
@@ -87,281 +101,20 @@ const Home = () => {
       <div className="container">
         <div className="row Most">
           <h3 className="text-center">Most popular casinos for players</h3>
-          {/* <div className="row ">
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="row text-center casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-            <div className=" mtr col-md-1 casino-data p0">
-              <div className="row">
-                <img src={bit} alt="" />
-              </div>
-              <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
-                </a>
-                <a href="" className="button_link">
-                  <span>play</span>
-                </a>
-              </div>
-            </div>
-          </div> */}
+        
 
 <div className="flex-row">
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={bet} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://www.bitstarz.com/" className="casino-link-area">
+                  BitStarz Casino 
                 </a>
-                <a href="" className="button_link">
+                <a href="https://www.bitstarz.com/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -371,14 +124,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={gos} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://goslot.com/en" className="casino-link-area">
+                GoSlot Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://goslot.com/en" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -388,14 +141,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={ybet} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://ybets.net/" className="casino-link-area">
+                Ybets Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://ybets.net/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -405,14 +158,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={sat} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://satoshihero.com/" className="casino-link-area">
+                Satoshi  Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://satoshihero.com/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -422,14 +175,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={slo} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
+                <a href="https://slotuna.com/en/" className="casino-link-area">
                   BitStarz Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://slotuna.com/en/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -439,14 +192,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={forr} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://www.fortunepanda.com/" className="casino-link-area">
+                Fortune Panda Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://www.fortunepanda.com/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -456,14 +209,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={betF} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://betflare.io/en?token=fD7Aj14cKZ_lr7__-UW0jWNd7ZgqdRLk" className="casino-link-area">
+                Betflare.io Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://betflare.io/en?token=fD7Aj14cKZ_lr7__-UW0jWNd7ZgqdRLk" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -473,14 +226,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={imr} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://immerion.com/" className="casino-link-area">
+                Immerion Casino 
                 </a>
-                <a href="" className="button_link">
+                <a href="https://immerion.com/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -490,18 +243,20 @@ const Home = () => {
 
 
 </div>
+
+
 <div className="flex-row">
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={lv} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://lvbet.com/en/casino/#modal-cookies-consent" className="casino-link-area">
+                 LV BET Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://lvbet.com/en/casino/#modal-cookies-consent" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -511,14 +266,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={lett} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://www.letslucky.com/" className="casino-link-area">
+                Let’s Lucky Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://www.letslucky.com/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -528,14 +283,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={ld} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://www.luckydreams.com/" className="casino-link-area">
+                Lucky Dreams Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://www.luckydreams.com/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -545,14 +300,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={waz} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://wazamba.com/" className="casino-link-area">
+                Wazamba Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://wazamba.com/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -562,14 +317,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={rock} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://roobet.com/" className="casino-link-area">
+                Roobet Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://roobet.com/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -579,14 +334,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={nomi} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://nomini.com/en/" className="casino-link-area">
+                Nomini Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://nomini.com/en/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -596,14 +351,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={rock} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://roobet.com/" className="casino-link-area">
+                Roobet Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://roobet.com/" className="button_link">
                   <span>play</span>
                 </a>
               </div>
@@ -613,14 +368,14 @@ const Home = () => {
     <div className="col">
         <div className="col-inner">
             <div className="red-box">
-            <img src={bit} alt="" />
+            <img src={bitkit} alt="" />
             </div>
             <div className="yellow-box">
             <div className="casino-data-small">
-                <a href="" className="casino-link-area">
-                  BitStarz Casino
+                <a href="https://www.bitkingz.com/" className="casino-link-area">
+                BitKingz Casino
                 </a>
-                <a href="" className="button_link">
+                <a href="https://www.bitkingz.com/" className="button_link">
                   <span>play</span>
                 </a>
               </div>

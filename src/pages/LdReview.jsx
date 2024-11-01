@@ -1,10 +1,9 @@
 import React from "react";
-import { default as casinoOne } from '../assets/Betsafe-Casino-one.jpg';
-import casinoTwo from '../assets/Betsafe-Games-two.jpg';
-import bet from '../assets/Betsafe-icon2.webp';
-import casinoThree from '../assets/BetsafeCasinoThree.jpg';
+import casinoTwo from '../assets/ldTwo.jpg';
 import lat from '../assets/letslucky-casino-icon.webp';
-import ld from '../assets/lucky-dreams-icone.png';
+import { default as bet, default as ld } from '../assets/lucky-dreams-icone.png';
+import casinoThree from '../assets/lucky-dreams-three.jpg';
+import { default as casinoOne } from '../assets/luckyOne.jpg';
 import tv from '../assets/lvbet-casino-icon2.webp';
 import nomini from '../assets/nomini-casino-icon.webp';
 import rank from "../assets/rank-image.svg";
@@ -15,7 +14,7 @@ import wowCasino from '../assets/wow_mobile_casino.svg';
 import Footer from "./Footer";
 import Header from "./Header";
 
-const BetReview = () => {
+const LdReview = () => {
   return (
     <div>
       <Header></Header>
@@ -24,20 +23,20 @@ const BetReview = () => {
           <div className="col-md-2">
             <div className="casino-overview text-center">
                <img src={bet} alt="" />
-                <h2>Betsafe Casino</h2>
-                <p>Betsafe is a top online casino provider that is operated under the banner of the prestigious BLM/Betsson Group.</p>
-                <a href="https://www.bitstarz.com/">visit casino</a>
+                <h2>Lucky Dreams Casino</h2>
+                <p>Enter the world of Lucky Dreams to play over 9,500+ games, participate in the crypto lottery and claim daily Pick & Dream bonuses.</p>
+                <a href="https://www.luckydreams.com/">visit casino</a>
             </div>
           </div>
           <div className="col-md-8">
-          <div className="casino-bg-grad">
+          <div className="casino-bg-grad4">
           <div className="row">
               <div className="col-md-6 rank-data">
-                <h2>Betsafe Casino Review</h2>
+                <h2>Lucky Dreams Casino Review </h2>
                 <div className="rank">
                   <div className="rank-point">
                     <img src={rank} alt="" />
-                    <p>97</p>
+                    <p>77</p>
                     <h4>Rank Very  <br />High</h4>
                   </div>
                   <div className="rank-score">
@@ -49,7 +48,7 @@ const BetReview = () => {
               </div>
               <div className="col-md-6">
                 <div className="casino-review-button text-center">
-                    <a href="https://www.bitstarz.com/">View Casino</a>
+                    <a href="https://www.luckydreams.com/">View Casino</a>
                 </div>
               </div>
             </div>
@@ -58,7 +57,7 @@ const BetReview = () => {
             <div className="row">
               <div className="col-md-8">
                 <div className="bonus">
-                   <h2>100% up to $/€ 100 + 150 Bonus Spins </h2>
+                   <h2>Up to $/€ 10,000 + up to 500 Bonus Spins </h2>
                    <p>T&C's Apply. 
                    New players only. Min deposit for deposit match offer is $/€ 10. Ewallets excluded. Wagering requirements – 35x bonus amount within 30 days and 35x spins winning within 3 days. Spins are credited in batches on Gates of Olympus slot. Bonus is available 30 days from registration. Max bet $/€ 6. Gamble responsibly</p>
                 </div>
@@ -70,13 +69,14 @@ const BetReview = () => {
                     <div className="tDataOne">
                       <div className="area-section text-center">
                         <img src={wowCasino} alt="" />
-                        <p>1000+ games</p>
+                        <p>9000+ games</p>
                       </div>
                     </div>
                     <div className="tDataTwo">
                     <div className="area-section text-center">
                         <img src={wowCasinoRate} alt="" />
-                        <p>1000+ games</p>
+                        <p>Hybrid
+                        Casino</p>
                       </div>
                     </div>
                    </div>
@@ -85,7 +85,7 @@ const BetReview = () => {
             </div>
           </div>
           <div className="preview">
-                <h2>Betsafe Casino Preview</h2>
+                <h2>Lucky Dreams Preview</h2>
             <div className="row text-center">
                <div className="col-md-4">
                 <img src={casinoOne} alt="" className="img-fluid" />
@@ -106,11 +106,15 @@ const BetReview = () => {
               <div className="col-md-6">
                <div className="pro">
                <h2>Pros</h2>
+
+               
+
+
                 <ul>
-                  <li>Betsafe Casino App for Android & iOS</li>
-                  <li>Super Fast Payouts</li>
-                  <li>Award-Winning Casino</li>
-                  <li>Best for Slots and Table Games</li>
+                  <li>Cryptocurrencies are available</li>
+                  <li>Exclusive VIP Program and Crypto Lottery</li>
+                  <li>Amazing collection of Slots and Table Games</li>
+                
                 </ul>
                </div>
               </div>
@@ -118,8 +122,8 @@ const BetReview = () => {
                 <div className="con">
                 <h2>Cons</h2>
                 <ul>
-                  <li>No Gamification features</li>
-                  <li>Multiple Restricted Countries</li>
+                  <li>Win limit of 100,000 per day</li>
+                  <li>Max win cap on Welcome Package bonus</li>
                 </ul>
                 </div>
               </div>
@@ -131,9 +135,9 @@ const BetReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Established</h4>
-                  <span>2006</span>
+                  <span>2021</span>
                   <h4>Owner</h4>
-                  <span>BML Group</span>
+                  <span>Dama N.V.</span>
                   <h4>Type</h4>
                   <span>Fiat, Instant Play, Mobile, Download</span>
                   <h4>Platforms</h4>
@@ -143,7 +147,7 @@ const BetReview = () => {
               <div className="col-md-6">
               <div className="Details-area-one">
               <h4>Licenses</h4>
-                  <span>Malta Gaming Authority, Swedish Gambling Authority</span>
+                  <span>Curacao eGaming</span>
                   <h4>Languages</h4>
                   <span>English, Estonian, Latvian/Lettish, Polish, Russian, Swedish</span>
                   <h4>Verification</h4>
@@ -162,7 +166,7 @@ const BetReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Total Games</h4>
-                  <span>1000+ Games</span>
+                  <span>9000+ Games</span>
                   <h4>Categories</h4>
                   <span>Video Slots, Jackpot Slots, Classic Slots, Fruit Slots, Vegas Slots, High Roller Slots, Exclusive Slots, Live Casino Games, Roulette Games, Blackjack Games, Baccarat Games, Poker Games, Sic Bo Games, Dice Casino Games, VIP Table Games, Video Poker, Bingo, Scratch Cards</span>
                 
@@ -187,30 +191,34 @@ const BetReview = () => {
               <div className="col-md-12">
                 <div className="Details-area-one">
                 <h4> Casino Review</h4>
-                  <span>Having been in the gambling business since 2006, over a decade of dedication has yielded a gambling site that lacks for absolutely nothing. The casino content is sure to meet the needs of every form of gambler out there. <br />
+                  <span>Finding the right online casino can be difficult, with hundreds of sites available at your fingertips. Lucky Dreams might be for you if you're looking for a hybrid casino with great game variety and superb promotions. <br />
 
-The casino site is well-appointed, clean and very user-friendly, which offers a great experience for players. Navigating through the menus and filtering through games is an easy affair, whether you seek to bet from your desktop or mobile device. <br />
+Lucky Dreams Casino is home to over 9,500+ online casino games from top software developers; it caters to fiat and cryptocurrency players and has plenty of exciting promotions to boost gameplay. This includes its Pick & Dream daily bonuses and the crypto lottery. <br />
 
-Based in Malta, Betsafe is open to a host of countries, including those that demand some of the strictest regulations out there. The site offers secure and fair gaming that competes with the top casino content available in the world.</span>
+Read the full CasinoWow review on Lucky Dreams Casino to see why this online operator has quickly become a favourite.</span>
                 
                 </div>
               </div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Security and Licenses</h4>
 
-                  <span>Betsafe have proven to be a top online casino contender in the market. Their Microgaming platform is second to none, offering a world-class experience developed by one of the globe’s oldest and most capable casino suppliers.
+                  <span>Lucky Dreams Casino is a relatively new online casino that hit the gaming industry in 2021. It carries a Curacao Gaming License and is owned and operated by Dama N.V. As a licensed operator, it adheres to strict regulations to provide a secure gaming experience to all players. <br />
 
-The licensing held by Betsafe and its Betsson ownership includes top regulator boards which hold the casino to account when it comes to the quality and reliability of their software, which is regularly independently audited.
+Some of the safety measures in place include SSL data encryption and the latest firewall technologies. On top of that, RNG software is used to ensure game outcomes are random and fair. This RNG software is also tested randomly by independent third parties to ensure fairness. <br />
 
-Betsafe holds licensing by the Malta Gaming Authority and Spel Inspektionen, who are notorious for their high standards and strictness; </span>
+Responsible gaming is encouraged among Lucky Dreams users, and the casino has a page with access to external help resources. You can also opt to exclude yourself from gambling by contacting customer support 24/7.</span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Bonuses and Promotions</h4>
 
-                  <span>In keeping with all top class online casinos, Betsafe offer bonus offers for both their casino content and for some of their sports betting options. In these cases, industry-standard wagering requirements are stipulated to ensure that players play though at the casino and do not abuse the promotions on offer in good faith.
+                  <span>Get started with a 4-deposit welcome bonus package which you can claim by registering a new player account. From there, you will be required to make a minimum deposit to claim each of the 4 bonuses. <br /> <br />
 
-While bonuses and promotions change from time to time, one thing you can always expect from Betsafe is a welcome casino bonus of some sort, as well as a loyalty rewards program. The Blackgold VIP program is a tiered rewards system that ensures a Rakeback for funds spent while gambling on the site. Rewards vary based on which tier (silver, gold, platinum, and diamond) you find yourself on.</span>
+The first bonus can be claimed straight away, while the 2nd to 4th will require the use of a special bonus code available in the casino's Promotions section. Before any winnings can be withdrawn, the wagering requirements must be met. <br /> <br />
+
+The casino has many promotions, but the Pick & Dream is by far a favourite. With this promotion, you make the required deposit and enter the bonus code DREAM. Then you pick your Lucky Shell and reveal your prize!  <br /> <br />
+
+Let's not forget the Lucky Dreams VIP program, where players are rewarded for their loyalty. The program runs on different travel destinations starting from Atlantic City, with the hope of getting all the way to Las Vegas. With each new destination you reach, you unlock bigger and better rewards, including a trip to Las Vegas when you reach your final destination.</span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
@@ -229,7 +237,7 @@ While bonuses and promotions change from time to time, one thing you can always 
               <div className="row">
                 <div className="menu_review">
                   <ul>
-                    <li><img src={bet} alt="" /><a href="/BetReview">	
+                    <li><img src={bet} alt="" /><a href="">	
                     BitStarz Casino</a></li>
                     <li><img src={waz} alt="" /><a href="">Wazamba Casino</a></li>
                     <li><img src={lat} alt="" /><a href="">Let’s Lucky Casino</a></li>
@@ -250,4 +258,4 @@ While bonuses and promotions change from time to time, one thing you can always 
   );
 };
 
-export default BetReview;
+export default LdReview;

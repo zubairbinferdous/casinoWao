@@ -550,29 +550,6 @@ footer {
   color: #333;
 }
 
-/* Responsive adjustments */
-@media (max-width: 1400px) {
-  .flex-row {
-    width: 100%; /* Full-width on smaller screens */
-    padding: 0; /* Remove extra padding */
-  }
-  .col {
-    flex: 1 0 calc(25% - 10px);
-  } /* 4 columns per row */
-}
-
-@media (max-width: 768px) {
-  .col {
-    flex: 1 0 calc(50% - 10px);
-  } /* 2 columns per row on smaller screens */
-}
-
-@media (max-width: 480px) {
-  .col {
-    flex: 1 0 100%;
-  } /* 1 column per row on extra-small screens */
-}
-
 .col {
   flex: 1 0 calc(12.5% - 10px);
   padding: 0px;
@@ -870,13 +847,6 @@ body {
   top: 8%;
 }
 
-.casino-bg-grad {
-  background: linear-gradient(to bottom, #000000, #8d0e0e);
-  margin-top: 40px;
-  padding: 10px 15px;
-  border-radius: 10px;
-  color: #e9e9e9;
-}
 .casino-review-button a {
   padding: 15px 55px;
   font-size: 17px;
@@ -1098,4 +1068,100 @@ ul {
   background-color: white;
   border-radius: 10px;
   padding: 33px;
+}
+
+.casino-img-icon img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 1px;
+}
+
+.casino-img {
+  text-align: center;
+}
+
+.data-area-section {
+  margin-bottom: 20px;
+}
+
+.casino-link-area {
+  font-size: 14px;
+  padding: 6px 5px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000000;
+}
+
+.menu-area li {
+  padding: 0px 10px;
+  font-size: 25px;
+}
+.casino-menu h2 {
+  padding-left: 5px;
+  margin-top: 10px;
+}
+
+.casino-overview p {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px;
+}
+.casino-overview h2 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.casino-bg-grad4 {
+  background: linear-gradient(to bottom, #1e1e1f, #272629);
+  margin-top: 40px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #e9e9e9;
+}
+
+.casino-bg-grad {
+  background: linear-gradient(to bottom, #000000, #8d0e0e);
+  margin-top: 40px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #e9e9e9;
+}
+.casino-bg-grad2 {
+  background: linear-gradient(to bottom, #0c0c0c, #b1bd07);
+  margin-top: 40px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #e9e9e9;
+}
+.casino-bg-grad3 {
+  background: linear-gradient(to bottom, #4c0ac7, #3807bd);
+  margin-top: 40px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #e9e9e9;
+}
+/* Responsive adjustments */
+@media (max-width: 1400px) {
+  .flex-row {
+    width: 100%; /* Full-width on smaller screens */
+    padding: 0; /* Remove extra padding */
+  }
+  .col {
+    flex: 1 0 calc(25% - 10px);
+  } /* 4 columns per row */
+}
+
+@media (max-width: 768px) {
+  .col {
+    flex: 1 0 calc(50% - 10px);
+  } /* 2 columns per row on smaller screens */
+}
+
+@media (max-width: 480px) {
+  .col {
+    flex: 1 0 100%;
+  } /* 1 column per row on extra-small screens */
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import bet from '../assets/Betsafe-icon2.webp';
 import cas from "../assets/casino-bonuses(1).webp";
+import CasinoDataOne from "./CasinoDataOne";
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -27,50 +27,19 @@ const AllCasino = () => {
             <div className="col-md-2">
                 <div className="casino-menu ">
                     <h2>Popular</h2>
-                    <ul className="">
+                    <ul className="menu-area">
                         <li> <a href="/home">Online Casinos</a> </li>
                         <li> <a href="/home">Crypto Casinos</a> </li>
                         <li> <a href="/home">Casino Reviews</a> </li>
                         <li> <a href="/home">Top Online Casinos</a> </li>
                     </ul>
                 </div>
+
+              
+               
             </div>
-            <div className="col-md-10">
-                <div className="data-area-section">
-                <div className="row">
-                  <div className="col-md-2">
-                    <div className="casino-img ">
-                      <img src={bet} alt="" />
-                    </div>
-                  </div>
-                  <div className="col-md-3">
-                    <div className="casino-name">
-                        <h2>
-                        Betsafe Casino</h2>
-                    </div>
-                  </div>
-                  <div className="col-md-2">
-                    <div className="casino-provide">
-                    <h4>Providers:</h4>
-                    <img src="" alt="" />
-                    </div>
-                  </div>
-                  <div className="col-md-2">
-                    <div className="casino-payout">
-                        <h4>payout :</h4>
-                        <p>Within 24 hours</p>
-                    </div>
-                  </div>
-                  <div className="col-md-3 text-center">
-                    <div className="casino-pay">
-                      <a href="https://www.bitstarz.com/">play</a>
-                    </div>
-                      <a href="/BetReview" className="button_review"> read review</a>
-                  </div>
-                  
-              </div>
-                </div>
-            </div>
+             
+             <CasinoDataOne></CasinoDataOne>
            
           </div>
       </div>

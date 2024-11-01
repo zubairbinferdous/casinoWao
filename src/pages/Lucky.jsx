@@ -1,9 +1,9 @@
 import React from "react";
-import { default as casinoOne } from '../assets/Betsafe-Casino-one.jpg';
-import casinoTwo from '../assets/Betsafe-Games-two.jpg';
-import bet from '../assets/Betsafe-icon2.webp';
-import casinoThree from '../assets/BetsafeCasinoThree.jpg';
-import lat from '../assets/letslucky-casino-icon.webp';
+import bet2 from '../assets/Betsafe-icon2.webp';
+import { default as bet, default as lat } from '../assets/letslucky-casino-icon.webp';
+import casinoOne from '../assets/letsluckyOne.jpg';
+import casinoTwo from '../assets/letsluckyThree.jpg';
+import casinoThree from '../assets/letsluckyTwo.jpg';
 import ld from '../assets/lucky-dreams-icone.png';
 import tv from '../assets/lvbet-casino-icon2.webp';
 import nomini from '../assets/nomini-casino-icon.webp';
@@ -15,29 +15,31 @@ import wowCasino from '../assets/wow_mobile_casino.svg';
 import Footer from "./Footer";
 import Header from "./Header";
 
-const BetReview = () => {
-  return (
-    <div>
+const Lucky = () => {
+    return (
+        <div>
       <Header></Header>
       <div className="container">
         <div className="row">
           <div className="col-md-2">
             <div className="casino-overview text-center">
                <img src={bet} alt="" />
-                <h2>Betsafe Casino</h2>
-                <p>Betsafe is a top online casino provider that is operated under the banner of the prestigious BLM/Betsson Group.</p>
-                <a href="https://www.bitstarz.com/">visit casino</a>
+                <h2>Let’s Lucky Casino</h2>
+                <p>Add a little luck to your gameplay with Let's Lucky Casino as you dive into over 9,500 casino games from top software providers.
+
+</p>
+                <a href="https://www.letslucky.com/">visit casino</a>
             </div>
           </div>
           <div className="col-md-8">
-          <div className="casino-bg-grad">
+          <div className="casino-bg-grad3">
           <div className="row">
               <div className="col-md-6 rank-data">
-                <h2>Betsafe Casino Review</h2>
+                <h2>Let’s Lucky Casino Review</h2>
                 <div className="rank">
                   <div className="rank-point">
                     <img src={rank} alt="" />
-                    <p>97</p>
+                    <p>77</p>
                     <h4>Rank Very  <br />High</h4>
                   </div>
                   <div className="rank-score">
@@ -49,7 +51,7 @@ const BetReview = () => {
               </div>
               <div className="col-md-6">
                 <div className="casino-review-button text-center">
-                    <a href="https://www.bitstarz.com/">View Casino</a>
+                    <a href="https://www.letslucky.com/">View Casino</a>
                 </div>
               </div>
             </div>
@@ -58,9 +60,10 @@ const BetReview = () => {
             <div className="row">
               <div className="col-md-8">
                 <div className="bonus">
-                   <h2>100% up to $/€ 100 + 150 Bonus Spins </h2>
-                   <p>T&C's Apply. 
-                   New players only. Min deposit for deposit match offer is $/€ 10. Ewallets excluded. Wagering requirements – 35x bonus amount within 30 days and 35x spins winning within 3 days. Spins are credited in batches on Gates of Olympus slot. Bonus is available 30 days from registration. Max bet $/€ 6. Gamble responsibly</p>
+                   <h2>Up to $/€ 4500 + up to 300 Bonus Spins </h2>
+                   <p>
+                                                                                                  T&C's Apply. 
+                                                                                                                                                   New players only. Min deposit for match bonus $/€ 10. LV spins are available for 5 days on pre-selected games. Wagering 30x bonus amount within 15 days. Max bet is $/€ 5. Ewallets excluded. Gamble responsibly.                                                                                             </p>
                 </div>
               </div>
               <div className="col-md-4">
@@ -70,13 +73,15 @@ const BetReview = () => {
                     <div className="tDataOne">
                       <div className="area-section text-center">
                         <img src={wowCasino} alt="" />
-                        <p>1000+ games</p>
+                        <p>9000+
+                        Games</p>
                       </div>
                     </div>
                     <div className="tDataTwo">
                     <div className="area-section text-center">
                         <img src={wowCasinoRate} alt="" />
-                        <p>1000+ games</p>
+                        <p>Hybrid
+                        Casino</p>
                       </div>
                     </div>
                    </div>
@@ -85,7 +90,7 @@ const BetReview = () => {
             </div>
           </div>
           <div className="preview">
-                <h2>Betsafe Casino Preview</h2>
+                <h2>LV BET  Casino Preview</h2>
             <div className="row text-center">
                <div className="col-md-4">
                 <img src={casinoOne} alt="" className="img-fluid" />
@@ -107,10 +112,9 @@ const BetReview = () => {
                <div className="pro">
                <h2>Pros</h2>
                 <ul>
-                  <li>Betsafe Casino App for Android & iOS</li>
-                  <li>Super Fast Payouts</li>
-                  <li>Award-Winning Casino</li>
-                  <li>Best for Slots and Table Games</li>
+                  <li>Amazing collection of Slots and Table Games</li>
+                  <li>Exclusive VIP Program & Tournaments</li>
+                  <li>Cryptocurrencies are available</li>
                 </ul>
                </div>
               </div>
@@ -118,8 +122,8 @@ const BetReview = () => {
                 <div className="con">
                 <h2>Cons</h2>
                 <ul>
-                  <li>No Gamification features</li>
-                  <li>Multiple Restricted Countries</li>
+                  <li>Win limit of 100,000 per day</li>
+                  <li>Max win cap on Welcome Package bonus</li>
                 </ul>
                 </div>
               </div>
@@ -131,11 +135,11 @@ const BetReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Established</h4>
-                  <span>2006</span>
+                  <span>2022</span>
                   <h4>Owner</h4>
-                  <span>BML Group</span>
+                  <span>Hollycorn N.V.</span>
                   <h4>Type</h4>
-                  <span>Fiat, Instant Play, Mobile, Download</span>
+                  <span>Hybrid, Instant Play, Mobile, Download </span>
                   <h4>Platforms</h4>
                   <span>macOS, Microsoft Windows, Tablet, Smartphone, Phablet, iPad, iPhone, iPod, Android Phone, Android Tablet, Windows Mobile</span>
                 </div>
@@ -143,9 +147,9 @@ const BetReview = () => {
               <div className="col-md-6">
               <div className="Details-area-one">
               <h4>Licenses</h4>
-                  <span>Malta Gaming Authority, Swedish Gambling Authority</span>
+                  <span>Curacao eGaming</span>
                   <h4>Languages</h4>
-                  <span>English, Estonian, Latvian/Lettish, Polish, Russian, Swedish</span>
+                  <span>English, German, Finnish, Hungarian, Polish, Slovenian, Vietnamese</span>
                   <h4>Verification</h4>
                   <span>Fast</span>
                   <h4>VPN</h4>
@@ -162,7 +166,7 @@ const BetReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Total Games</h4>
-                  <span>1000+ Games</span>
+                  <span>9000+ Games</span>
                   <h4>Categories</h4>
                   <span>Video Slots, Jackpot Slots, Classic Slots, Fruit Slots, Vegas Slots, High Roller Slots, Exclusive Slots, Live Casino Games, Roulette Games, Blackjack Games, Baccarat Games, Poker Games, Sic Bo Games, Dice Casino Games, VIP Table Games, Video Poker, Bingo, Scratch Cards</span>
                 
@@ -187,30 +191,34 @@ const BetReview = () => {
               <div className="col-md-12">
                 <div className="Details-area-one">
                 <h4> Casino Review</h4>
-                  <span>Having been in the gambling business since 2006, over a decade of dedication has yielded a gambling site that lacks for absolutely nothing. The casino content is sure to meet the needs of every form of gambler out there. <br />
+                  <span>Picking an online casino is a tough process, as there are many things to consider. If you want a casino where luck just might be sprinkled extra generously, then Let's Lucky Casino is one to consider. <br />
 
-The casino site is well-appointed, clean and very user-friendly, which offers a great experience for players. Navigating through the menus and filtering through games is an easy affair, whether you seek to bet from your desktop or mobile device. <br />
+This hybrid casino accepts fiat and crypto payments and has various cryptocurrency options. If game variety is what you're after, then you'll adore this site's selection of over 9,500+ games. On top of that, there are an exclusive VIP program and game tournaments to partake in. <br />
 
-Based in Malta, Betsafe is open to a host of countries, including those that demand some of the strictest regulations out there. The site offers secure and fair gaming that competes with the top casino content available in the world.</span>
+Read the full CasinoWow review to find out all there is to know about Let's Lucky Casino.</span>
                 
                 </div>
               </div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Security and Licenses</h4>
 
-                  <span>Betsafe have proven to be a top online casino contender in the market. Their Microgaming platform is second to none, offering a world-class experience developed by one of the globe’s oldest and most capable casino suppliers.
+                  <span>Let's Lucky Casino launched in 2022 and is owned and operated by Hollycorn N.V. It carries a Curacao Gaming License and provides service in English, German, Norwegian, French, and Finnish. <br /> <br />
 
-The licensing held by Betsafe and its Betsson ownership includes top regulator boards which hold the casino to account when it comes to the quality and reliability of their software, which is regularly independently audited.
+Security is a main priority, and the latest security measures are implemented to provide a safe gaming experience. This includes SSL data encryption and other security software to secure all player information and transactions. Games fairness is tested by independent third parties. <br /> <br />
 
-Betsafe holds licensing by the Malta Gaming Authority and Spel Inspektionen, who are notorious for their high standards and strictness; </span>
+Responsible Gaming is a top priority, and there are tools and tips to assist players in staying on track. Options for a Time-out or Self-exclusion are available for anyone who needs to take a break.</span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Bonuses and Promotions</h4>
 
-                  <span>In keeping with all top class online casinos, Betsafe offer bonus offers for both their casino content and for some of their sports betting options. In these cases, industry-standard wagering requirements are stipulated to ensure that players play though at the casino and do not abuse the promotions on offer in good faith.
+                  <span>Get ready to change your luck with the best bonuses and promotions from Let's Lucky Casino. You'll have access to generous rewards to boost your gameplay from the get-go. <br /> <br />
 
-While bonuses and promotions change from time to time, one thing you can always expect from Betsafe is a welcome casino bonus of some sort, as well as a loyalty rewards program. The Blackgold VIP program is a tiered rewards system that ensures a Rakeback for funds spent while gambling on the site. Rewards vary based on which tier (silver, gold, platinum, and diamond) you find yourself on.</span>
+New players who register at Let's Lucky Casino are treated to a 4-deposit welcome bonus package. The first bonus requires only a deposit, but from the second deposit bonus onwards, you'll need to use a special bonus code when making your deposit to claim the offer. Wagering requirements must be fulfilled to withdraw any winnings, and there is a max win cap on the welcome bonus package. <br /> <br />
+
+The casino has many other exciting promotions, including daily bonuses, free spins, and reload rewards. A big drawcard is the VIP program, where you can climb the ranks by playing your favourite games. The VIP program plays on travel fun, with each level being a different place. <br /> <br />
+
+There is Sydney, Tokyo, Amsterdam, Goa, New York, Ibiza, and Las Vegas. You start in Sydney and travel all the way to Las Vegas as you climb the ranks. With each level, you earn access to bigger rewards. And if you make your way to the Las Vegas level, you could score a trip to Las Vegas in real life.</span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
@@ -229,7 +237,7 @@ While bonuses and promotions change from time to time, one thing you can always 
               <div className="row">
                 <div className="menu_review">
                   <ul>
-                    <li><img src={bet} alt="" /><a href="/BetReview">	
+                    <li><img src={bet2} alt="" /><a href="/BetReview">	
                     BitStarz Casino</a></li>
                     <li><img src={waz} alt="" /><a href="">Wazamba Casino</a></li>
                     <li><img src={lat} alt="" /><a href="">Let’s Lucky Casino</a></li>
@@ -247,7 +255,7 @@ While bonuses and promotions change from time to time, one thing you can always 
     
       <Footer></Footer>
     </div>
-  );
+    );
 };
 
-export default BetReview;
+export default Lucky;

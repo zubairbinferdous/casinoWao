@@ -1,11 +1,12 @@
 import React from "react";
-import { default as casinoOne } from '../assets/Betsafe-Casino-one.jpg';
-import casinoTwo from '../assets/Betsafe-Games-two.jpg';
-import bet from '../assets/Betsafe-icon2.webp';
-import casinoThree from '../assets/BetsafeCasinoThree.jpg';
+import bet2 from '../assets/Betsafe-icon2.webp';
 import lat from '../assets/letslucky-casino-icon.webp';
 import ld from '../assets/lucky-dreams-icone.png';
 import tv from '../assets/lvbet-casino-icon2.webp';
+import casinoOne from '../assets/lvbet-casino-one.jpg';
+import casinoThree from '../assets/lvbet-casino-three.jpg';
+import casinoTwo from '../assets/lvbet-casino-two.jpg';
+import bet from '../assets/lvbet.webp';
 import nomini from '../assets/nomini-casino-icon.webp';
 import rank from "../assets/rank-image.svg";
 import trust from "../assets/trusted-score-green.svg";
@@ -15,29 +16,31 @@ import wowCasino from '../assets/wow_mobile_casino.svg';
 import Footer from "./Footer";
 import Header from "./Header";
 
-const BetReview = () => {
-  return (
-    <div>
+const LvCasino = () => {
+    return (
+        <div>
       <Header></Header>
       <div className="container">
         <div className="row">
           <div className="col-md-2">
             <div className="casino-overview text-center">
                <img src={bet} alt="" />
-                <h2>Betsafe Casino</h2>
-                <p>Betsafe is a top online casino provider that is operated under the banner of the prestigious BLM/Betsson Group.</p>
-                <a href="https://www.bitstarz.com/">visit casino</a>
+                <h2>LV BET Casino</h2>
+                <p>LV BET Casino is focussed on efficient customer support and a healthy games selection to keep you coming back for more.
+
+</p>
+                <a href="https://lvbet.com/en/casino/">visit casino</a>
             </div>
           </div>
           <div className="col-md-8">
-          <div className="casino-bg-grad">
+          <div className="casino-bg-grad2">
           <div className="row">
               <div className="col-md-6 rank-data">
-                <h2>Betsafe Casino Review</h2>
+                <h2>LV BET Casino Review</h2>
                 <div className="rank">
                   <div className="rank-point">
                     <img src={rank} alt="" />
-                    <p>97</p>
+                    <p>87</p>
                     <h4>Rank Very  <br />High</h4>
                   </div>
                   <div className="rank-score">
@@ -49,7 +52,7 @@ const BetReview = () => {
               </div>
               <div className="col-md-6">
                 <div className="casino-review-button text-center">
-                    <a href="https://www.bitstarz.com/">View Casino</a>
+                    <a href="https://lvbet.com/en/casino/">View Casino</a>
                 </div>
               </div>
             </div>
@@ -58,9 +61,10 @@ const BetReview = () => {
             <div className="row">
               <div className="col-md-8">
                 <div className="bonus">
-                   <h2>100% up to $/€ 100 + 150 Bonus Spins </h2>
-                   <p>T&C's Apply. 
-                   New players only. Min deposit for deposit match offer is $/€ 10. Ewallets excluded. Wagering requirements – 35x bonus amount within 30 days and 35x spins winning within 3 days. Spins are credited in batches on Gates of Olympus slot. Bonus is available 30 days from registration. Max bet $/€ 6. Gamble responsibly</p>
+                   <h2>Up to $/€ 400 + up to 100 LV spins </h2>
+                   <p>
+                                                                                                  T&C's Apply. 
+                                                                                                                                                   New players only. Min deposit for match bonus $/€ 10. LV spins are available for 5 days on pre-selected games. Wagering 30x bonus amount within 15 days. Max bet is $/€ 5. Ewallets excluded. Gamble responsibly.                                                                                             </p>
                 </div>
               </div>
               <div className="col-md-4">
@@ -76,7 +80,8 @@ const BetReview = () => {
                     <div className="tDataTwo">
                     <div className="area-section text-center">
                         <img src={wowCasinoRate} alt="" />
-                        <p>1000+ games</p>
+                        <p>WOW
+                        High Roller</p>
                       </div>
                     </div>
                    </div>
@@ -85,7 +90,7 @@ const BetReview = () => {
             </div>
           </div>
           <div className="preview">
-                <h2>Betsafe Casino Preview</h2>
+                <h2>LV BET  Casino Preview</h2>
             <div className="row text-center">
                <div className="col-md-4">
                 <img src={casinoOne} alt="" className="img-fluid" />
@@ -107,10 +112,10 @@ const BetReview = () => {
                <div className="pro">
                <h2>Pros</h2>
                 <ul>
-                  <li>Betsafe Casino App for Android & iOS</li>
-                  <li>Super Fast Payouts</li>
-                  <li>Award-Winning Casino</li>
-                  <li>Best for Slots and Table Games</li>
+                  <li>Regular Promotions</li>
+                  <li>Special LV Points Rewards Program</li>
+                  <li>Very Good Casino Game Collection</li>
+                  <li>Exclusive LV Wheel</li>
                 </ul>
                </div>
               </div>
@@ -118,8 +123,8 @@ const BetReview = () => {
                 <div className="con">
                 <h2>Cons</h2>
                 <ul>
-                  <li>No Gamification features</li>
-                  <li>Multiple Restricted Countries</li>
+                  <li>Withdrawal Fees</li>
+                  <li>No 24/7 Support</li>
                 </ul>
                 </div>
               </div>
@@ -131,11 +136,11 @@ const BetReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Established</h4>
-                  <span>2006</span>
+                  <span>2015</span>
                   <h4>Owner</h4>
-                  <span>BML Group</span>
+                  <span>Fairload Ltd</span>
                   <h4>Type</h4>
-                  <span>Fiat, Instant Play, Mobile, Download</span>
+                  <span>Fiat, Instant Play, Mobile, </span>
                   <h4>Platforms</h4>
                   <span>macOS, Microsoft Windows, Tablet, Smartphone, Phablet, iPad, iPhone, iPod, Android Phone, Android Tablet, Windows Mobile</span>
                 </div>
@@ -143,9 +148,9 @@ const BetReview = () => {
               <div className="col-md-6">
               <div className="Details-area-one">
               <h4>Licenses</h4>
-                  <span>Malta Gaming Authority, Swedish Gambling Authority</span>
+                  <span>Malta Gaming Authority</span>
                   <h4>Languages</h4>
-                  <span>English, Estonian, Latvian/Lettish, Polish, Russian, Swedish</span>
+                  <span>English, German, Finnish, Hungarian, Polish, Slovenian, Vietnamese</span>
                   <h4>Verification</h4>
                   <span>Fast</span>
                   <h4>VPN</h4>
@@ -170,7 +175,7 @@ const BetReview = () => {
               </div>
               <div className="col-md-6">    <div className="Details-area-one">
               <h4> Total Game Providers</h4>
-                  <span>100+</span>
+                  <span>50+</span>
                   <h4>Providers</h4>
                   <span>Microgaming, NetEnt, Novomatic, Play'n GO, Big Time Gaming, Barcrest, WMS, NYX Interactive, NextGen Gaming, IGT, Yggdrasil, Evolution Gaming, Thunderkick, Quickspin, Bally Gaming, SG Digital, Pragmatic Play, Push Gaming, Blueprint Gaming, ELK Studios, iSoftBet, Red Tiger Gaming, Greentube, Just for the Win, Lightning Box, Rabcat</span>
                 
@@ -187,30 +192,37 @@ const BetReview = () => {
               <div className="col-md-12">
                 <div className="Details-area-one">
                 <h4> Casino Review</h4>
-                  <span>Having been in the gambling business since 2006, over a decade of dedication has yielded a gambling site that lacks for absolutely nothing. The casino content is sure to meet the needs of every form of gambler out there. <br />
+                  <span>LV BET Casino is a full-service online casino site where gamers can play all their favourite games of chance, place sports bets on live and virtual matches and enjoy a well-rounded live casino experience. <br />
 
-The casino site is well-appointed, clean and very user-friendly, which offers a great experience for players. Navigating through the menus and filtering through games is an easy affair, whether you seek to bet from your desktop or mobile device. <br />
+After years of offering casino services, they have refined their offering to include not only the latest and greatest in casino games but also all your favourite classics. <br />
 
-Based in Malta, Betsafe is open to a host of countries, including those that demand some of the strictest regulations out there. The site offers secure and fair gaming that competes with the top casino content available in the world.</span>
+The site loads quickly via your Android or iOS smartphone and tablet, which makes it incredibly easy to play casino games on the go. As will many mobile versions of online casino sites, the game catalogue is slightly reduced, however, players will love transacting on their casino account, playing casino games and experiencing the live casino. <br />
+
+While no app is available for the casino side of things, the mobile responsive site shrinks to fit the screen you are using to view it for the most user-friendly experience possible. So, there is no need to download anything, simply load the site using your web browser on your mobile device, log in and start winning.</span>
                 
                 </div>
               </div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Security and Licenses</h4>
 
-                  <span>Betsafe have proven to be a top online casino contender in the market. Their Microgaming platform is second to none, offering a world-class experience developed by one of the globe’s oldest and most capable casino suppliers.
+                  <span>With its head office based in Malta, this online casino was established in 2015 and is licensed by both the Malta Gaming Authority. <br /> <br />
 
-The licensing held by Betsafe and its Betsson ownership includes top regulator boards which hold the casino to account when it comes to the quality and reliability of their software, which is regularly independently audited.
+The site doesn’t seem to bear the stamp of approval of any 3rd party agency like eCOGRA, however, they have been certified by Casino Meister which indicated that the site is safe and fair. <br /> <br />
 
-Betsafe holds licensing by the Malta Gaming Authority and Spel Inspektionen, who are notorious for their high standards and strictness; </span>
+LV BET is tough on safety and only wants the best for its customers. You can rest assured that your personal information is safe and sound as LV BET makes use of SSL encryption whenever you’re interacting with the casino. <br /> <br /> </span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Bonuses and Promotions</h4>
 
-                  <span>In keeping with all top class online casinos, Betsafe offer bonus offers for both their casino content and for some of their sports betting options. In these cases, industry-standard wagering requirements are stipulated to ensure that players play though at the casino and do not abuse the promotions on offer in good faith.
+                  <span>LV BET takes care of existing customers through their LV Points rewards program and the LV Wheel. In order to earn points, simply create a player account and receive points for every cash wager made.
 
-While bonuses and promotions change from time to time, one thing you can always expect from Betsafe is a welcome casino bonus of some sort, as well as a loyalty rewards program. The Blackgold VIP program is a tiered rewards system that ensures a Rakeback for funds spent while gambling on the site. Rewards vary based on which tier (silver, gold, platinum, and diamond) you find yourself on.</span>
+For every 100 points, you can receive €1 in casino credit and you need a minimum of 200 points to start converting those points.
+
+LV Wheel
+The LV Wheel is how existing customers benefit from freebies and promotional offers on a daily basis. Simply spin the wheel to receive a bonus credit, free spins, a reload bonus or LV Points.
+
+To activate this wheel of fortune, visit the slot section of the casino and start playing your favourite game. Every wager you make adds to the LV Wheel power bar and, once it has been filled, this will trigger the Wheel.</span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
@@ -229,7 +241,7 @@ While bonuses and promotions change from time to time, one thing you can always 
               <div className="row">
                 <div className="menu_review">
                   <ul>
-                    <li><img src={bet} alt="" /><a href="/BetReview">	
+                    <li><img src={bet2} alt="" /><a href="/BetReview">	
                     BitStarz Casino</a></li>
                     <li><img src={waz} alt="" /><a href="">Wazamba Casino</a></li>
                     <li><img src={lat} alt="" /><a href="">Let’s Lucky Casino</a></li>
@@ -247,7 +259,7 @@ While bonuses and promotions change from time to time, one thing you can always 
     
       <Footer></Footer>
     </div>
-  );
+    );
 };
 
-export default BetReview;
+export default LvCasino;
