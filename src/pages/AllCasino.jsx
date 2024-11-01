@@ -63,7 +63,7 @@ const AllCasino = () => {
                   </div>
                   <div className="col-md-3 text-center">
                     <div className="casino-pay">
-                      <a href="">play</a>
+                      <a href="https://www.bitstarz.com/">play</a>
                     </div>
                       <a href="/BetReview" className="button_review"> read review</a>
                   </div>

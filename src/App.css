@@ -1028,3 +1028,74 @@ body {
   font-weight: 700;
   padding: 10px 0px;
 }
+
+.pro h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.con h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.pro ul li {
+  font-size: 16px;
+  font-weight: 400;
+}
+.con ul li {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.con {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.pro {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.casino-Details h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.casino-Details {
+  margin-top: 20px;
+}
+.Details-area-one {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.Details-area-one h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.Details-area-one span {
+  font-size: 16px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+ul {
+  padding: 0px;
+}
+
+.pro {
+  background-color: white;
+  border-radius: 10px;
+  padding: 33px;
+}
+
+.con {
+  background-color: white;
+  border-radius: 10px;
+  padding: 33px;
+}
