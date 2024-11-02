@@ -1,6 +1,8 @@
 import React from "react";
+
 import bet2 from '../assets/Betsafe-icon2.webp';
-import { default as bet, default as lat } from '../assets/letslucky-casino-icon.webp';
+import bet from '../assets/letslucky-casino-icon (1).webp';
+import { default as lat } from '../assets/letslucky-casino-icon.webp';
 import casinoOne from '../assets/letsluckyOne.jpg';
 import casinoTwo from '../assets/letsluckyThree.jpg';
 import casinoThree from '../assets/letsluckyTwo.jpg';
@@ -90,18 +92,18 @@ const Lucky = () => {
             </div>
           </div>
           <div className="preview">
-                <h2>LV BET  Casino Preview</h2>
+                <h2>Lucky   Casino Preview</h2>
             <div className="row text-center">
                <div className="col-md-4">
                 <img src={casinoOne} alt="" className="img-fluid" />
                 <p>Casino Lobby</p>
                </div>
                <div className="col-md-4">
-                <img src={casinoTwo} alt="" className="img-fluid" />
+                <img src={casinoThree} alt="" className="img-fluid" />
                 <p>Casino Games</p>
                </div>
                <div className="col-md-4">
-                <img src={casinoThree} alt="" className="img-fluid" />
+                <img src={ casinoTwo} alt="" className="img-fluid" />
                 <p>Mobile Casino</p>
                </div>
             </div>
@@ -239,12 +241,12 @@ There is Sydney, Tokyo, Amsterdam, Goa, New York, Ibiza, and Las Vegas. You star
                   <ul>
                     <li><img src={bet2} alt="" /><a href="/BetReview">	
                     BitStarz Casino</a></li>
-                    <li><img src={waz} alt="" /><a href="">Wazamba Casino</a></li>
-                    <li><img src={lat} alt="" /><a href="">Let’s Lucky Casino</a></li>
-                    <li><img src={tv} alt="" /><a href="">	
+                    <li><img src={waz} alt="" /><a href="/wazaCasino">Wazamba Casino</a></li>
+                    <li><img src={lat} alt="" /><a href="/luckyCasino">Let’s Lucky Casino</a></li>
+                    <li><img src={tv} alt="" /><a href="/lvCasino">	
                     LV BET Casino</a></li>
-                    <li><img src={ld} alt="" /><a href="">Lucky Dreams Casino</a></li>
-                    <li><img src={nomini} alt="" /><a href="">Nomini Casino</a></li>
+                    <li><img src={ld} alt="" /><a href="/luckyDream">Lucky Dreams Casino</a></li>
+                    <li><img src={nomini} alt="" /><a href="/nomini">Nomini Casino</a></li>
                   </ul>
                 </div>
               </div>

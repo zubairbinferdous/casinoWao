@@ -1,10 +1,11 @@
 import React from "react";
 import bet2 from '../assets/Betsafe-icon2.webp';
-import casinoTwo from '../assets/ldTwo.jpg';
+import casinoTwo from '../assets/goslot-casino-games.two.jpg';
+import bet from '../assets/goslot-casino-icon.webp';
+import { default as casinoOne } from '../assets/goslot-casino.one.jpg';
+import casinoThree from '../assets/goslot-mobile-casino.three.jpg';
 import lat from '../assets/letslucky-casino-icon.webp';
-import { default as bet, default as ld } from '../assets/lucky-dreams-icone.png';
-import casinoThree from '../assets/lucky-dreams-three.jpg';
-import { default as casinoOne } from '../assets/luckyOne.jpg';
+import ld from '../assets/lucky-dreams-icone.png';
 import tv from '../assets/lvbet-casino-icon2.webp';
 import nomini from '../assets/nomini-casino-icon.webp';
 import rank from "../assets/rank-image.svg";
@@ -15,7 +16,7 @@ import wowCasino from '../assets/wow_mobile_casino.svg';
 import Footer from "./Footer";
 import Header from "./Header";
 
-const LdReview = () => {
+const Gosol= () => {
   return (
     <div>
       <Header></Header>
@@ -24,21 +25,21 @@ const LdReview = () => {
           <div className="col-md-2">
             <div className="casino-overview text-center">
                <img src={bet} alt="" />
-                <h2>Lucky Dreams Casino</h2>
-                <p>Enter the world of Lucky Dreams to play over 9,500+ games, participate in the crypto lottery and claim daily Pick & Dream bonuses.</p>
-                <a href="https://www.luckydreams.com/">visit casino</a>
+                <h2>GoSlot   Casino</h2>
+                <p>GoSlot is a new Pay N Play casino that emphasises speed, easy navigation, dynamic rewards and most of all, gamification features provided by Unibo.</p>
+                <a href="https://goslot.com/en">visit casino</a>
             </div>
           </div>
           <div className="col-md-8">
-          <div className="casino-bg-grad4">
+          <div className="casino-bg-grad3">
           <div className="row">
               <div className="col-md-6 rank-data">
-                <h2>Lucky Dreams Casino Review </h2>
+                <h2>GoSlot   Casino Review</h2>
                 <div className="rank">
                   <div className="rank-point">
                     <img src={rank} alt="" />
-                    <p>77</p>
-                    <h4>Rank Very  <br />High</h4>
+                    <p>70</p>
+                    <h4>Rank <br />Good</h4>
                   </div>
                   <div className="rank-score">
                     <img src={trust} alt="" />
@@ -49,7 +50,7 @@ const LdReview = () => {
               </div>
               <div className="col-md-6">
                 <div className="casino-review-button text-center">
-                    <a href="https://www.luckydreams.com/">View Casino</a>
+                    <a href="https://goslot.com/en">View Casino</a>
                 </div>
               </div>
             </div>
@@ -58,7 +59,7 @@ const LdReview = () => {
             <div className="row">
               <div className="col-md-8">
                 <div className="bonus">
-                   <h2>Up to $/€ 10,000 + up to 500 Bonus Spins </h2>
+                   <h2>11% cashback on any losses every week </h2>
                    <p>T&C's Apply. 
                    New players only. Min deposit for deposit match offer is $/€ 10. Ewallets excluded. Wagering requirements – 35x bonus amount within 30 days and 35x spins winning within 3 days. Spins are credited in batches on Gates of Olympus slot. Bonus is available 30 days from registration. Max bet $/€ 6. Gamble responsibly</p>
                 </div>
@@ -70,14 +71,14 @@ const LdReview = () => {
                     <div className="tDataOne">
                       <div className="area-section text-center">
                         <img src={wowCasino} alt="" />
-                        <p>9000+ games</p>
+                        <p>3000+ games</p>
                       </div>
                     </div>
                     <div className="tDataTwo">
                     <div className="area-section text-center">
                         <img src={wowCasinoRate} alt="" />
-                        <p>Hybrid
-                        Casino</p>
+                        <p>WOW
+                        Gamification</p>
                       </div>
                     </div>
                    </div>
@@ -86,7 +87,7 @@ const LdReview = () => {
             </div>
           </div>
           <div className="preview">
-                <h2>Lucky Dreams Preview</h2>
+                <h2>GoSlot   Casino Preview</h2>
             <div className="row text-center">
                <div className="col-md-4">
                 <img src={casinoOne} alt="" className="img-fluid" />
@@ -107,15 +108,11 @@ const LdReview = () => {
               <div className="col-md-6">
                <div className="pro">
                <h2>Pros</h2>
-
-               
-
-
                 <ul>
-                  <li>Cryptocurrencies are available</li>
-                  <li>Exclusive VIP Program and Crypto Lottery</li>
-                  <li>Amazing collection of Slots and Table Games</li>
-                
+                  <li> Trustly Pay N Play online casino</li>
+                  <li>Unibo gamification system</li>
+                  <li>English Live chat is available 24/7</li>
+                 
                 </ul>
                </div>
               </div>
@@ -123,8 +120,9 @@ const LdReview = () => {
                 <div className="con">
                 <h2>Cons</h2>
                 <ul>
-                  <li>Win limit of 100,000 per day</li>
-                  <li>Max win cap on Welcome Package bonus</li>
+                  <li>Many restricted countries</li>
+                  <li>Non-English Live chat between 8:00-2:00</li>
+                  <li>Higher min. withdrawal limit</li>
                 </ul>
                 </div>
               </div>
@@ -138,9 +136,9 @@ const LdReview = () => {
                   <h4>Established</h4>
                   <span>2021</span>
                   <h4>Owner</h4>
-                  <span>Dama N.V.</span>
+                  <span>Gammix Limited</span>
                   <h4>Type</h4>
-                  <span>Fiat, Instant Play, Mobile, Download</span>
+                  <span>Fiat, Instant Play, Mobile, </span>
                   <h4>Platforms</h4>
                   <span>macOS, Microsoft Windows, Tablet, Smartphone, Phablet, iPad, iPhone, iPod, Android Phone, Android Tablet, Windows Mobile</span>
                 </div>
@@ -148,9 +146,9 @@ const LdReview = () => {
               <div className="col-md-6">
               <div className="Details-area-one">
               <h4>Licenses</h4>
-                  <span>Curacao eGaming</span>
+                  <span>Malta Gaming Authority</span>
                   <h4>Languages</h4>
-                  <span>English, Estonian, Latvian/Lettish, Polish, Russian, Swedish</span>
+                  <span>English, German, Finnish</span>
                   <h4>Verification</h4>
                   <span>Fast</span>
                   <h4>VPN</h4>
@@ -167,7 +165,7 @@ const LdReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Total Games</h4>
-                  <span>9000+ Games</span>
+                  <span>3000+ Games</span>
                   <h4>Categories</h4>
                   <span>Video Slots, Jackpot Slots, Classic Slots, Fruit Slots, Vegas Slots, High Roller Slots, Exclusive Slots, Live Casino Games, Roulette Games, Blackjack Games, Baccarat Games, Poker Games, Sic Bo Games, Dice Casino Games, VIP Table Games, Video Poker, Bingo, Scratch Cards</span>
                 
@@ -175,7 +173,7 @@ const LdReview = () => {
               </div>
               <div className="col-md-6">    <div className="Details-area-one">
               <h4> Total Game Providers</h4>
-                  <span>100+</span>
+                  <span>50+</span>
                   <h4>Providers</h4>
                   <span>Microgaming, NetEnt, Novomatic, Play'n GO, Big Time Gaming, Barcrest, WMS, NYX Interactive, NextGen Gaming, IGT, Yggdrasil, Evolution Gaming, Thunderkick, Quickspin, Bally Gaming, SG Digital, Pragmatic Play, Push Gaming, Blueprint Gaming, ELK Studios, iSoftBet, Red Tiger Gaming, Greentube, Just for the Win, Lightning Box, Rabcat</span>
                 
@@ -192,34 +190,29 @@ const LdReview = () => {
               <div className="col-md-12">
                 <div className="Details-area-one">
                 <h4> Casino Review</h4>
-                  <span>Finding the right online casino can be difficult, with hundreds of sites available at your fingertips. Lucky Dreams might be for you if you're looking for a hybrid casino with great game variety and superb promotions. <br />
+                  <span>If you want to experience an online casino with unique missions, fun tournaments and exciting chases, GoSlot Casino is the place for you. This innovative casino brand aims to provide a fair online casino experience that is simple to use, extremely quick and player-friendly. <br />
 
-Lucky Dreams Casino is home to over 9,500+ online casino games from top software developers; it caters to fiat and cryptocurrency players and has plenty of exciting promotions to boost gameplay. This includes its Pick & Dream daily bonuses and the crypto lottery. <br />
+Brought to you by “a group of friends” who are genuine casino enthusiasts and online casino industry experts, GoSlot Casino delivers on all that matters most. Operated by Gammix Limited and founded in 2021 under the laws of Malta, their focus is fast and secure payments, instant play, and they offer 3000+ games! <br />
 
-Read the full CasinoWow review on Lucky Dreams Casino to see why this online operator has quickly become a favourite.</span>
+Visit the daily GoGoals promotions where you stand to win Free Spins or cash prizes, and loyal players also earn cashback every single week. <br />
+
+This platform offers a wide variety of new games, including Jackpots, Slots, Live Casino and table games with regular bonuses and bankroll boosters.</span>
                 
                 </div>
               </div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Security and Licenses</h4>
 
-                  <span>Lucky Dreams Casino is a relatively new online casino that hit the gaming industry in 2021. It carries a Curacao Gaming License and is owned and operated by Dama N.V. As a licensed operator, it adheres to strict regulations to provide a secure gaming experience to all players. <br />
+                  <span>When it comes to chance, GoSlot makes all games fair by using the same Random Number Generator (RNG) as all other reputable casinos. GoSlot’s Privacy Policy also makes it clear that your privacy is their top priority. <br />
 
-Some of the safety measures in place include SSL data encryption and the latest firewall technologies. On top of that, RNG software is used to ensure game outcomes are random and fair. This RNG software is also tested randomly by independent third parties to ensure fairness. <br />
-
-Responsible gaming is encouraged among Lucky Dreams users, and the casino has a page with access to external help resources. You can also opt to exclude yourself from gambling by contacting customer support 24/7.</span>
+They are registered and licenced under the strict law of Malta and regulated by the Malta Gaming Authority. GoSlot! advocates responsible gaming.</span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Bonuses and Promotions</h4>
 
-                  <span>Get started with a 4-deposit welcome bonus package which you can claim by registering a new player account. From there, you will be required to make a minimum deposit to claim each of the 4 bonuses. <br /> <br />
-
-The first bonus can be claimed straight away, while the 2nd to 4th will require the use of a special bonus code available in the casino's Promotions section. Before any winnings can be withdrawn, the wagering requirements must be met. <br /> <br />
-
-The casino has many promotions, but the Pick & Dream is by far a favourite. With this promotion, you make the required deposit and enter the bonus code DREAM. Then you pick your Lucky Shell and reveal your prize!  <br /> <br />
-
-Let's not forget the Lucky Dreams VIP program, where players are rewarded for their loyalty. The program runs on different travel destinations starting from Atlantic City, with the hope of getting all the way to Las Vegas. With each new destination you reach, you unlock bigger and better rewards, including a trip to Las Vegas when you reach your final destination.</span>
+                  <span>Deposit hassle-free using either Trustly or Pay and Play. They offer weekend withdrawals and a minimum deposit and withdrawal amount of €20. There is a withdrawal limit of €20,000 where any amount over this will be paid in instalments. Their withdrawal turnaround is within a maximum of 48 hours. This is a fast, simple and safe Pay N Play gaming site.<br />
+</span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
@@ -259,4 +252,4 @@ Let's not forget the Lucky Dreams VIP program, where players are rewarded for th
   );
 };
 
-export default LdReview;
+export default Gosol;

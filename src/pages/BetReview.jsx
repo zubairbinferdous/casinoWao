@@ -76,7 +76,8 @@ const BetReview = () => {
                     <div className="tDataTwo">
                     <div className="area-section text-center">
                         <img src={wowCasinoRate} alt="" />
-                        <p>1000+ games</p>
+                        <p>Hybrid
+                        Casino</p>
                       </div>
                     </div>
                    </div>
@@ -231,12 +232,12 @@ While bonuses and promotions change from time to time, one thing you can always 
                   <ul>
                     <li><img src={bet} alt="" /><a href="/BetReview">	
                     BitStarz Casino</a></li>
-                    <li><img src={waz} alt="" /><a href="">Wazamba Casino</a></li>
-                    <li><img src={lat} alt="" /><a href="">Let’s Lucky Casino</a></li>
-                    <li><img src={tv} alt="" /><a href="">	
+                    <li><img src={waz} alt="" /><a href="/wazaCasino">Wazamba Casino</a></li>
+                    <li><img src={lat} alt="" /><a href="/luckyCasino">Let’s Lucky Casino</a></li>
+                    <li><img src={tv} alt="" /><a href="/lvCasino">	
                     LV BET Casino</a></li>
-                    <li><img src={ld} alt="" /><a href="">Lucky Dreams Casino</a></li>
-                    <li><img src={nomini} alt="" /><a href="">Nomini Casino</a></li>
+                    <li><img src={ld} alt="" /><a href="/luckyDream">Lucky Dreams Casino</a></li>
+                    <li><img src={nomini} alt="" /><a href="/nomini">Nomini Casino</a></li>
                   </ul>
                 </div>
               </div>

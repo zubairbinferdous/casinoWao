@@ -1,44 +1,48 @@
 import React from "react";
 import bet2 from '../assets/Betsafe-icon2.webp';
-import casinoTwo from '../assets/ldTwo.jpg';
 import lat from '../assets/letslucky-casino-icon.webp';
-import { default as bet, default as ld } from '../assets/lucky-dreams-icone.png';
-import casinoThree from '../assets/lucky-dreams-three.jpg';
-import { default as casinoOne } from '../assets/luckyOne.jpg';
+import ld from '../assets/lucky-dreams-icone.png';
 import tv from '../assets/lvbet-casino-icon2.webp';
 import nomini from '../assets/nomini-casino-icon.webp';
 import rank from "../assets/rank-image.svg";
 import trust from "../assets/trusted-score-green.svg";
 import waz from '../assets/wazamba-casino-icon1.png';
+import casinoThree from '../assets/wild-io-casino-games.two.jpg';
+import casinoOne from '../assets/wild-io-casino-home.one.jpg';
+import wid2 from '../assets/Wild-io-casino-icon.webp';
+import casinoTwo from '../assets/wild-io-mobile-casino.three.jpg';
 import wowCasinoRate from '../assets/wow_best_rated.svg';
 import wowCasino from '../assets/wow_mobile_casino.svg';
 import Footer from "./Footer";
 import Header from "./Header";
 
-const LdReview = () => {
-  return (
-    <div>
+
+const Wid = () => {
+    return (
+        <div>
       <Header></Header>
       <div className="container">
         <div className="row">
           <div className="col-md-2">
             <div className="casino-overview text-center">
-               <img src={bet} alt="" />
-                <h2>Lucky Dreams Casino</h2>
-                <p>Enter the world of Lucky Dreams to play over 9,500+ games, participate in the crypto lottery and claim daily Pick & Dream bonuses.</p>
-                <a href="https://www.luckydreams.com/">visit casino</a>
+               <img src={wid2} alt="" />
+                <h2>Wild.io Casino</h2>
+                <p>Dive into weekly tournaments, fast payouts and big bonuses playing at Wild casino. Read the CasinoWow review for more info.
+
+</p>
+                <a href="https://wild.io">visit casino</a>
             </div>
           </div>
           <div className="col-md-8">
-          <div className="casino-bg-grad4">
+          <div className="casino-bg-grad2">
           <div className="row">
               <div className="col-md-6 rank-data">
-                <h2>Lucky Dreams Casino Review </h2>
+                <h2>Wild.io Casino Review</h2>
                 <div className="rank">
                   <div className="rank-point">
                     <img src={rank} alt="" />
-                    <p>77</p>
-                    <h4>Rank Very  <br />High</h4>
+                    <p>83</p>
+                    <h4>Rank   <br />High</h4>
                   </div>
                   <div className="rank-score">
                     <img src={trust} alt="" />
@@ -49,7 +53,7 @@ const LdReview = () => {
               </div>
               <div className="col-md-6">
                 <div className="casino-review-button text-center">
-                    <a href="https://www.luckydreams.com/">View Casino</a>
+                    <a href="https://wild.io">View Casino</a>
                 </div>
               </div>
             </div>
@@ -58,9 +62,10 @@ const LdReview = () => {
             <div className="row">
               <div className="col-md-8">
                 <div className="bonus">
-                   <h2>Up to $/€ 10,000 + up to 500 Bonus Spins </h2>
-                   <p>T&C's Apply. 
-                   New players only. Min deposit for deposit match offer is $/€ 10. Ewallets excluded. Wagering requirements – 35x bonus amount within 30 days and 35x spins winning within 3 days. Spins are credited in batches on Gates of Olympus slot. Bonus is available 30 days from registration. Max bet $/€ 6. Gamble responsibly</p>
+                   <h2>Up to 400% Bonus + 300 Bonus Spins</h2>
+                   <p>
+                                                                                                  T&C's Apply. 
+                                                                                                                                                   New players only. Min deposit for match bonus $/€ 10. LV spins are available for 5 days on pre-selected games. Wagering 30x bonus amount within 15 days. Max bet is $/€ 5. Ewallets excluded. Gamble responsibly.                                                                                             </p>
                 </div>
               </div>
               <div className="col-md-4">
@@ -70,13 +75,13 @@ const LdReview = () => {
                     <div className="tDataOne">
                       <div className="area-section text-center">
                         <img src={wowCasino} alt="" />
-                        <p>9000+ games</p>
+                        <p>7000+ games</p>
                       </div>
                     </div>
                     <div className="tDataTwo">
                     <div className="area-section text-center">
                         <img src={wowCasinoRate} alt="" />
-                        <p>Hybrid
+                        <p>Crypto
                         Casino</p>
                       </div>
                     </div>
@@ -86,18 +91,18 @@ const LdReview = () => {
             </div>
           </div>
           <div className="preview">
-                <h2>Lucky Dreams Preview</h2>
+                <h2>Wild.io  Casino Preview</h2>
             <div className="row text-center">
                <div className="col-md-4">
                 <img src={casinoOne} alt="" className="img-fluid" />
                 <p>Casino Lobby</p>
                </div>
                <div className="col-md-4">
-                <img src={casinoTwo} alt="" className="img-fluid" />
+                <img src={casinoThree} alt="" className="img-fluid" />
                 <p>Casino Games</p>
                </div>
                <div className="col-md-4">
-                <img src={casinoThree} alt="" className="img-fluid" />
+                <img src={ casinoTwo} alt="" className="img-fluid" />
                 <p>Mobile Casino</p>
                </div>
             </div>
@@ -107,15 +112,11 @@ const LdReview = () => {
               <div className="col-md-6">
                <div className="pro">
                <h2>Pros</h2>
-
-               
-
-
                 <ul>
-                  <li>Cryptocurrencies are available</li>
-                  <li>Exclusive VIP Program and Crypto Lottery</li>
-                  <li>Amazing collection of Slots and Table Games</li>
-                
+                  <li>Instant deposits & withdrawals</li>
+                  <li>Daily Rakeback & other Amazing Promos</li>
+                  <li>VIP Club & VIP Wheel</li>
+                  <li>Sportsbook</li>
                 </ul>
                </div>
               </div>
@@ -123,8 +124,8 @@ const LdReview = () => {
                 <div className="con">
                 <h2>Cons</h2>
                 <ul>
-                  <li>Win limit of 100,000 per day</li>
-                  <li>Max win cap on Welcome Package bonus</li>
+                  <li>Only English available</li>
+                  <li>No Fiat payment options</li>
                 </ul>
                 </div>
               </div>
@@ -136,11 +137,11 @@ const LdReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Established</h4>
-                  <span>2021</span>
+                  <span>2022</span>
                   <h4>Owner</h4>
-                  <span>Dama N.V.</span>
+                  <span>Nonce Gaming B.V</span>
                   <h4>Type</h4>
-                  <span>Fiat, Instant Play, Mobile, Download</span>
+                  <span>Fiat, Instant Play, Mobile, </span>
                   <h4>Platforms</h4>
                   <span>macOS, Microsoft Windows, Tablet, Smartphone, Phablet, iPad, iPhone, iPod, Android Phone, Android Tablet, Windows Mobile</span>
                 </div>
@@ -150,11 +151,11 @@ const LdReview = () => {
               <h4>Licenses</h4>
                   <span>Curacao eGaming</span>
                   <h4>Languages</h4>
-                  <span>English, Estonian, Latvian/Lettish, Polish, Russian, Swedish</span>
+                  <span>English</span>
                   <h4>Verification</h4>
                   <span>Fast</span>
                   <h4>VPN</h4>
-                  <span>Not allowed</span>
+                  <span> allowed</span>
               </div>
               </div>
             
@@ -167,7 +168,7 @@ const LdReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Total Games</h4>
-                  <span>9000+ Games</span>
+                  <span>7000+ Games</span>
                   <h4>Categories</h4>
                   <span>Video Slots, Jackpot Slots, Classic Slots, Fruit Slots, Vegas Slots, High Roller Slots, Exclusive Slots, Live Casino Games, Roulette Games, Blackjack Games, Baccarat Games, Poker Games, Sic Bo Games, Dice Casino Games, VIP Table Games, Video Poker, Bingo, Scratch Cards</span>
                 
@@ -175,7 +176,7 @@ const LdReview = () => {
               </div>
               <div className="col-md-6">    <div className="Details-area-one">
               <h4> Total Game Providers</h4>
-                  <span>100+</span>
+                  <span>50+</span>
                   <h4>Providers</h4>
                   <span>Microgaming, NetEnt, Novomatic, Play'n GO, Big Time Gaming, Barcrest, WMS, NYX Interactive, NextGen Gaming, IGT, Yggdrasil, Evolution Gaming, Thunderkick, Quickspin, Bally Gaming, SG Digital, Pragmatic Play, Push Gaming, Blueprint Gaming, ELK Studios, iSoftBet, Red Tiger Gaming, Greentube, Just for the Win, Lightning Box, Rabcat</span>
                 
@@ -192,40 +193,40 @@ const LdReview = () => {
               <div className="col-md-12">
                 <div className="Details-area-one">
                 <h4> Casino Review</h4>
-                  <span>Finding the right online casino can be difficult, with hundreds of sites available at your fingertips. Lucky Dreams might be for you if you're looking for a hybrid casino with great game variety and superb promotions. <br />
+                  <span>If you’re a thrill seeker looking for a great crypto online gaming experience, it’s time to enter the world of Wild.io. This crypto casino is designed for thrill seekers and enthusiasts who love to bet online. The platform is accessible across all devices with a wide range of provably fair games, fast deposits and withdrawals, and weekly tournaments. <br />
 
-Lucky Dreams Casino is home to over 9,500+ online casino games from top software developers; it caters to fiat and cryptocurrency players and has plenty of exciting promotions to boost gameplay. This includes its Pick & Dream daily bonuses and the crypto lottery. <br />
+Take part in the fun at Wild.io casino and enjoy VIP rewards, Daily Rakeback and other promotions. Choose between quality games in the casino or current sports betting options via the sportsbook. <br />
 
-Read the full CasinoWow review on Lucky Dreams Casino to see why this online operator has quickly become a favourite.</span>
+Read our CasinoWow casino review to find out all there is to know about Wild Casino.</span>
                 
                 </div>
               </div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Security and Licenses</h4>
 
-                  <span>Lucky Dreams Casino is a relatively new online casino that hit the gaming industry in 2021. It carries a Curacao Gaming License and is owned and operated by Dama N.V. As a licensed operator, it adheres to strict regulations to provide a secure gaming experience to all players. <br />
+                  <span>Wild Casino is a popular crypto casino owned and operated by Nonce Gaming B.V. The platform is licensed and regulated by Curacao eGaming, ensuring a secure betting experience for all players.  <br />
 
-Some of the safety measures in place include SSL data encryption and the latest firewall technologies. On top of that, RNG software is used to ensure game outcomes are random and fair. This RNG software is also tested randomly by independent third parties to ensure fairness. <br />
+The latest security measures include SSL data encryption and firewall technologies. Crypto payment methods offer an additional layer of security and anonymity. <br />
 
-Responsible gaming is encouraged among Lucky Dreams users, and the casino has a page with access to external help resources. You can also opt to exclude yourself from gambling by contacting customer support 24/7.</span>
+Responsible gambling is encouraged with the Responsible Gaming page featuring information on healthy betting tips and access to further support. You can also use the Personal Limits section in your account to set your limits or opt for Self-exclusion. </span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Bonuses and Promotions</h4>
 
-                  <span>Get started with a 4-deposit welcome bonus package which you can claim by registering a new player account. From there, you will be required to make a minimum deposit to claim each of the 4 bonuses. <br /> <br />
+                  <span>One of the best things about Wild.io Casino is that the promotions page is always packed with offers to boost gameplay. For new players, a big welcome crypto bonus package can be claimed upon registration. You can also opt for a casino or sportsbook welcome bonus. <br />
 
-The first bonus can be claimed straight away, while the 2nd to 4th will require the use of a special bonus code available in the casino's Promotions section. Before any winnings can be withdrawn, the wagering requirements must be met. <br /> <br />
+The regular offers you can expect at Wild.io Casino include daily cashbacks, weekly cashbacks and VIP cashback offers. There are weekend promotions, weekly reload bonuses and free spins. <br />
 
-The casino has many promotions, but the Pick & Dream is by far a favourite. With this promotion, you make the required deposit and enter the bonus code DREAM. Then you pick your Lucky Shell and reveal your prize!  <br /> <br />
-
-Let's not forget the Lucky Dreams VIP program, where players are rewarded for their loyalty. The program runs on different travel destinations starting from Atlantic City, with the hope of getting all the way to Las Vegas. With each new destination you reach, you unlock bigger and better rewards, including a trip to Las Vegas when you reach your final destination.</span>
+The VIP program ensures regular players access VIP benefits, including the VIP Wheel and VIP Wins, where you can spin your way to free spins combos and big jackpot prizes. There are 7 VIP tiers with different levels that lead to bigger and better rewards.</span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> CasinoWow Summary</h4>
 
-                  <span>Betsafe is a great site for gamblers wanting to have access to many various forms of betting. It is your one-stop-shop from casino games to sportsbooks, offering the finest customer service and holding a good reputation in the industry.</span>
+                  <span>Wild.io Casino is a top CasinoWow recommendation for players looking for a crypto platform with instant deposits and withdrawals, daily rakeback and other big promotions. You’ll also benefit from the platform if you’re a sports bettor or enjoy VIP benefits.
+
+One thing to keep in mind is that the platform operates solely in English, and no fiat payment options are available.</span>
                 
               </div></div>
           
@@ -256,7 +257,7 @@ Let's not forget the Lucky Dreams VIP program, where players are rewarded for th
     
       <Footer></Footer>
     </div>
-  );
+    );
 };
 
-export default LdReview;
+export default Wid;

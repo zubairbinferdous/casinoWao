@@ -1,10 +1,7 @@
 import React from "react";
 import bet2 from '../assets/Betsafe-icon2.webp';
-import casinoTwo from '../assets/ldTwo.jpg';
 import lat from '../assets/letslucky-casino-icon.webp';
-import { default as bet, default as ld } from '../assets/lucky-dreams-icone.png';
-import casinoThree from '../assets/lucky-dreams-three.jpg';
-import { default as casinoOne } from '../assets/luckyOne.jpg';
+import ld from '../assets/lucky-dreams-icone.png';
 import tv from '../assets/lvbet-casino-icon2.webp';
 import nomini from '../assets/nomini-casino-icon.webp';
 import rank from "../assets/rank-image.svg";
@@ -12,10 +9,14 @@ import trust from "../assets/trusted-score-green.svg";
 import waz from '../assets/wazamba-casino-icon1.png';
 import wowCasinoRate from '../assets/wow_best_rated.svg';
 import wowCasino from '../assets/wow_mobile_casino.svg';
+import casinoTwo from '../assets/Ybets-casino-games.tow.jpg';
+import { default as casinoOne } from '../assets/Ybets-casino-home.one.jpg';
+import bet from '../assets/Ybets-casino-icon.webp';
+import casinoThree from '../assets/Ybets-mobile-casino.three.jpg';
 import Footer from "./Footer";
 import Header from "./Header";
 
-const LdReview = () => {
+const Yetbet = () => {
   return (
     <div>
       <Header></Header>
@@ -24,21 +25,21 @@ const LdReview = () => {
           <div className="col-md-2">
             <div className="casino-overview text-center">
                <img src={bet} alt="" />
-                <h2>Lucky Dreams Casino</h2>
-                <p>Enter the world of Lucky Dreams to play over 9,500+ games, participate in the crypto lottery and claim daily Pick & Dream bonuses.</p>
-                <a href="https://www.luckydreams.com/">visit casino</a>
+                <h2>Ybets  Casino</h2>
+                <p>Enter the world of crypto online gaming at Ybets Casino and enjoy 6,000+ games and a unique Engine of Fortune feature.</p>
+                <a href="https://ybets.net/">visit casino</a>
             </div>
           </div>
           <div className="col-md-8">
-          <div className="casino-bg-grad4">
+          <div className="casino-bg-grad">
           <div className="row">
               <div className="col-md-6 rank-data">
-                <h2>Lucky Dreams Casino Review </h2>
+                <h2>Ybets  Casino Review</h2>
                 <div className="rank">
                   <div className="rank-point">
                     <img src={rank} alt="" />
                     <p>77</p>
-                    <h4>Rank Very  <br />High</h4>
+                    <h4>Rank   <br />good</h4>
                   </div>
                   <div className="rank-score">
                     <img src={trust} alt="" />
@@ -49,7 +50,7 @@ const LdReview = () => {
               </div>
               <div className="col-md-6">
                 <div className="casino-review-button text-center">
-                    <a href="https://www.luckydreams.com/">View Casino</a>
+                    <a href="https://ybets.net/">View Casino</a>
                 </div>
               </div>
             </div>
@@ -58,7 +59,7 @@ const LdReview = () => {
             <div className="row">
               <div className="col-md-8">
                 <div className="bonus">
-                   <h2>Up to $/€ 10,000 + up to 500 Bonus Spins </h2>
+                   <h2>500% up to $/€ 8000 Welcome Package </h2>
                    <p>T&C's Apply. 
                    New players only. Min deposit for deposit match offer is $/€ 10. Ewallets excluded. Wagering requirements – 35x bonus amount within 30 days and 35x spins winning within 3 days. Spins are credited in batches on Gates of Olympus slot. Bonus is available 30 days from registration. Max bet $/€ 6. Gamble responsibly</p>
                 </div>
@@ -70,7 +71,7 @@ const LdReview = () => {
                     <div className="tDataOne">
                       <div className="area-section text-center">
                         <img src={wowCasino} alt="" />
-                        <p>9000+ games</p>
+                        <p>6000+ games</p>
                       </div>
                     </div>
                     <div className="tDataTwo">
@@ -86,7 +87,7 @@ const LdReview = () => {
             </div>
           </div>
           <div className="preview">
-                <h2>Lucky Dreams Preview</h2>
+                <h2>Ybets  Casino Preview</h2>
             <div className="row text-center">
                <div className="col-md-4">
                 <img src={casinoOne} alt="" className="img-fluid" />
@@ -107,15 +108,11 @@ const LdReview = () => {
               <div className="col-md-6">
                <div className="pro">
                <h2>Pros</h2>
-
-               
-
-
+        
                 <ul>
-                  <li>Cryptocurrencies are available</li>
-                  <li>Exclusive VIP Program and Crypto Lottery</li>
-                  <li>Amazing collection of Slots and Table Games</li>
-                
+                  <li> Crypto-friendly casino</li>
+                  <li>Engine of Fortune</li>
+                  <li>Sports betting available</li>
                 </ul>
                </div>
               </div>
@@ -123,8 +120,9 @@ const LdReview = () => {
                 <div className="con">
                 <h2>Cons</h2>
                 <ul>
-                  <li>Win limit of 100,000 per day</li>
-                  <li>Max win cap on Welcome Package bonus</li>
+                  <li>   No info about VIP program or Promos</li>
+                  <li>Limited Responsible Gambling tools</li>
+                  <li>Low withdrawal limit for new players</li>
                 </ul>
                 </div>
               </div>
@@ -136,11 +134,11 @@ const LdReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Established</h4>
-                  <span>2021</span>
+                  <span>2023</span>
                   <h4>Owner</h4>
-                  <span>Dama N.V.</span>
+                  <span>Sigg Marketing Limited</span>
                   <h4>Type</h4>
-                  <span>Fiat, Instant Play, Mobile, Download</span>
+                  <span>Fiat, Instant Play, Mobile, </span>
                   <h4>Platforms</h4>
                   <span>macOS, Microsoft Windows, Tablet, Smartphone, Phablet, iPad, iPhone, iPod, Android Phone, Android Tablet, Windows Mobile</span>
                 </div>
@@ -148,9 +146,9 @@ const LdReview = () => {
               <div className="col-md-6">
               <div className="Details-area-one">
               <h4>Licenses</h4>
-                  <span>Curacao eGaming</span>
+                  <span>PAGCOR</span>
                   <h4>Languages</h4>
-                  <span>English, Estonian, Latvian/Lettish, Polish, Russian, Swedish</span>
+                  <span>English, Bulgarian, Czech, Danish, German, Greek, Spanish, Finnish, French, Croatian, Hungarian, Indonesian, Italian, Japanese, Dutch, Norwegian, Polish, Portuguese, Romanian, Russian, Slovak, Slovenian, Serbian, Swedish</span>
                   <h4>Verification</h4>
                   <span>Fast</span>
                   <h4>VPN</h4>
@@ -167,7 +165,7 @@ const LdReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Total Games</h4>
-                  <span>9000+ Games</span>
+                  <span>6000+ Games</span>
                   <h4>Categories</h4>
                   <span>Video Slots, Jackpot Slots, Classic Slots, Fruit Slots, Vegas Slots, High Roller Slots, Exclusive Slots, Live Casino Games, Roulette Games, Blackjack Games, Baccarat Games, Poker Games, Sic Bo Games, Dice Casino Games, VIP Table Games, Video Poker, Bingo, Scratch Cards</span>
                 
@@ -175,7 +173,7 @@ const LdReview = () => {
               </div>
               <div className="col-md-6">    <div className="Details-area-one">
               <h4> Total Game Providers</h4>
-                  <span>100+</span>
+                  <span>50+</span>
                   <h4>Providers</h4>
                   <span>Microgaming, NetEnt, Novomatic, Play'n GO, Big Time Gaming, Barcrest, WMS, NYX Interactive, NextGen Gaming, IGT, Yggdrasil, Evolution Gaming, Thunderkick, Quickspin, Bally Gaming, SG Digital, Pragmatic Play, Push Gaming, Blueprint Gaming, ELK Studios, iSoftBet, Red Tiger Gaming, Greentube, Just for the Win, Lightning Box, Rabcat</span>
                 
@@ -192,34 +190,32 @@ const LdReview = () => {
               <div className="col-md-12">
                 <div className="Details-area-one">
                 <h4> Casino Review</h4>
-                  <span>Finding the right online casino can be difficult, with hundreds of sites available at your fingertips. Lucky Dreams might be for you if you're looking for a hybrid casino with great game variety and superb promotions. <br />
+                  <span>With so many different online casinos available, it’s always difficult to choose one. The key is to have a basic idea of what you want and then opt for something that ticks most of those boxes.
 
-Lucky Dreams Casino is home to over 9,500+ online casino games from top software developers; it caters to fiat and cryptocurrency players and has plenty of exciting promotions to boost gameplay. This includes its Pick & Dream daily bonuses and the crypto lottery. <br />
+Ybets Casino is a sleek crypto-friendly online casino with a modern design that captures attention with its AI-themed user interface. Its black and red colour scheme gives off a more professional feel across all devices.
 
-Read the full CasinoWow review on Lucky Dreams Casino to see why this online operator has quickly become a favourite.</span>
+It offers 6,000+ games, generous bonuses and promotions, and a dedicated customer support team. Read the full CasinoWow review to learn more about Ybets Casino.</span>
                 
                 </div>
               </div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Security and Licenses</h4>
 
-                  <span>Lucky Dreams Casino is a relatively new online casino that hit the gaming industry in 2021. It carries a Curacao Gaming License and is owned and operated by Dama N.V. As a licensed operator, it adheres to strict regulations to provide a secure gaming experience to all players. <br />
+                  <span>Ybets Casino opened its virtual doors in 2023. The hybrid casino is licensed and regulated by PAGCOR and is owned and operated by Sigg Marketing Limited.
 
-Some of the safety measures in place include SSL data encryption and the latest firewall technologies. On top of that, RNG software is used to ensure game outcomes are random and fair. This RNG software is also tested randomly by independent third parties to ensure fairness. <br />
+In terms of security, Ybets implements SSL data encryption and other security measures. It is deemed a secure gaming platform by several verifiers and trusted names in the industry. Games are random and fair, using random number generators audited regularly.
 
-Responsible gaming is encouraged among Lucky Dreams users, and the casino has a page with access to external help resources. You can also opt to exclude yourself from gambling by contacting customer support 24/7.</span>
+Ybets Casino is dedicated to responsible gambling and offers several tools, such as self-exclusion, to assist players. There’s also a dedicated Responsible Gambling page with tips and resources. </span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Bonuses and Promotions</h4>
 
-                  <span>Get started with a 4-deposit welcome bonus package which you can claim by registering a new player account. From there, you will be required to make a minimum deposit to claim each of the 4 bonuses. <br /> <br />
+                  <span>Bonuses are a big part of any gaming platform's success, and while there is no sign of a VIP program or even regular promotions, some set rewards make everyday gameplay at Ybets Casino quite exciting.
 
-The first bonus can be claimed straight away, while the 2nd to 4th will require the use of a special bonus code available in the casino's Promotions section. Before any winnings can be withdrawn, the wagering requirements must be met. <br /> <br />
+As a new player, you'll be spoiled with a massive welcome bonus package. The offer is split across your first couple of deposits. Terms and conditions apply, including a minimum deposit and wagering requirements that must be met before any withdrawals can be made.
 
-The casino has many promotions, but the Pick & Dream is by far a favourite. With this promotion, you make the required deposit and enter the bonus code DREAM. Then you pick your Lucky Shell and reveal your prize!  <br /> <br />
-
-Let's not forget the Lucky Dreams VIP program, where players are rewarded for their loyalty. The program runs on different travel destinations starting from Atlantic City, with the hope of getting all the way to Las Vegas. With each new destination you reach, you unlock bigger and better rewards, including a trip to Las Vegas when you reach your final destination.</span>
+A cashback on losses can increase to up to 20%. If you play on Telegram, you get that extra 10% cashback on your losses. Then, there is the Engine of Fortune, which is unlocked when you create an account and make a deposit of €50 or more. You can use your Fortune spins to start and win rewards like extra promotions, increased cashback, deposit bonuses, and cryptocurrency offers.</span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
@@ -259,4 +255,4 @@ Let's not forget the Lucky Dreams VIP program, where players are rewarded for th
   );
 };
 
-export default LdReview;
+export default Yetbet;

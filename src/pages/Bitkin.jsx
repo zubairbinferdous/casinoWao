@@ -1,10 +1,11 @@
 import React from "react";
 import bet2 from '../assets/Betsafe-icon2.webp';
-import casinoTwo from '../assets/ldTwo.jpg';
+import { default as casinoOne } from '../assets/bitkingz-casino-games-two.jpg';
+import casinoTwo from '../assets/bitkingz-casino-one.jpg';
+import bet from '../assets/bitkingz-icon.webp';
+import casinoThree from '../assets/bitkingz-mobile-casino-three.jpg';
 import lat from '../assets/letslucky-casino-icon.webp';
-import { default as bet, default as ld } from '../assets/lucky-dreams-icone.png';
-import casinoThree from '../assets/lucky-dreams-three.jpg';
-import { default as casinoOne } from '../assets/luckyOne.jpg';
+import ld from '../assets/lucky-dreams-icone.png';
 import tv from '../assets/lvbet-casino-icon2.webp';
 import nomini from '../assets/nomini-casino-icon.webp';
 import rank from "../assets/rank-image.svg";
@@ -15,7 +16,7 @@ import wowCasino from '../assets/wow_mobile_casino.svg';
 import Footer from "./Footer";
 import Header from "./Header";
 
-const LdReview = () => {
+const Bitkin= () => {
   return (
     <div>
       <Header></Header>
@@ -24,21 +25,21 @@ const LdReview = () => {
           <div className="col-md-2">
             <div className="casino-overview text-center">
                <img src={bet} alt="" />
-                <h2>Lucky Dreams Casino</h2>
-                <p>Enter the world of Lucky Dreams to play over 9,500+ games, participate in the crypto lottery and claim daily Pick & Dream bonuses.</p>
-                <a href="https://www.luckydreams.com/">visit casino</a>
+                <h2>BitKingz  Casino</h2>
+                <p>BitKingz Casino provides the royal treatment with high roller bonuses, over 2,000 games and around-the-clock customer support.</p>
+                <a href="https://www.bitkingz.com/">visit casino</a>
             </div>
           </div>
           <div className="col-md-8">
           <div className="casino-bg-grad4">
           <div className="row">
               <div className="col-md-6 rank-data">
-                <h2>Lucky Dreams Casino Review </h2>
+                <h2>BitKingz  Casino Review</h2>
                 <div className="rank">
                   <div className="rank-point">
                     <img src={rank} alt="" />
-                    <p>77</p>
-                    <h4>Rank Very  <br />High</h4>
+                    <p>70</p>
+                    <h4>Rank <br />Good</h4>
                   </div>
                   <div className="rank-score">
                     <img src={trust} alt="" />
@@ -49,7 +50,7 @@ const LdReview = () => {
               </div>
               <div className="col-md-6">
                 <div className="casino-review-button text-center">
-                    <a href="https://www.luckydreams.com/">View Casino</a>
+                    <a href="https://www.bitkingz.com/">View Casino</a>
                 </div>
               </div>
             </div>
@@ -58,7 +59,7 @@ const LdReview = () => {
             <div className="row">
               <div className="col-md-8">
                 <div className="bonus">
-                   <h2>Up to $/€ 10,000 + up to 500 Bonus Spins </h2>
+                   <h2>Up to $/€ 3000 + up to 225 Bonus spins </h2>
                    <p>T&C's Apply. 
                    New players only. Min deposit for deposit match offer is $/€ 10. Ewallets excluded. Wagering requirements – 35x bonus amount within 30 days and 35x spins winning within 3 days. Spins are credited in batches on Gates of Olympus slot. Bonus is available 30 days from registration. Max bet $/€ 6. Gamble responsibly</p>
                 </div>
@@ -70,7 +71,7 @@ const LdReview = () => {
                     <div className="tDataOne">
                       <div className="area-section text-center">
                         <img src={wowCasino} alt="" />
-                        <p>9000+ games</p>
+                        <p>2000+ games</p>
                       </div>
                     </div>
                     <div className="tDataTwo">
@@ -86,7 +87,7 @@ const LdReview = () => {
             </div>
           </div>
           <div className="preview">
-                <h2>Lucky Dreams Preview</h2>
+                <h2>BitKingz  Casino Preview</h2>
             <div className="row text-center">
                <div className="col-md-4">
                 <img src={casinoOne} alt="" className="img-fluid" />
@@ -108,14 +109,11 @@ const LdReview = () => {
                <div className="pro">
                <h2>Pros</h2>
 
-               
-
-
                 <ul>
-                  <li>Cryptocurrencies are available</li>
-                  <li>Exclusive VIP Program and Crypto Lottery</li>
-                  <li>Amazing collection of Slots and Table Games</li>
-                
+                  <li> Huge gaming library</li>
+                  <li>BitkKingz VIP Club</li>
+                  <li>Cryptocurrency available</li>
+                 
                 </ul>
                </div>
               </div>
@@ -123,8 +121,9 @@ const LdReview = () => {
                 <div className="con">
                 <h2>Cons</h2>
                 <ul>
-                  <li>Win limit of 100,000 per day</li>
-                  <li>Max win cap on Welcome Package bonus</li>
+                  <li>No phone support</li>
+                  <li>Payouts can be faster</li>
+                  <li>Low withdrawal limits</li>
                 </ul>
                 </div>
               </div>
@@ -136,11 +135,11 @@ const LdReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Established</h4>
-                  <span>2021</span>
+                  <span>2020</span>
                   <h4>Owner</h4>
                   <span>Dama N.V.</span>
                   <h4>Type</h4>
-                  <span>Fiat, Instant Play, Mobile, Download</span>
+                  <span>Fiat, Instant Play, Mobile, </span>
                   <h4>Platforms</h4>
                   <span>macOS, Microsoft Windows, Tablet, Smartphone, Phablet, iPad, iPhone, iPod, Android Phone, Android Tablet, Windows Mobile</span>
                 </div>
@@ -150,7 +149,7 @@ const LdReview = () => {
               <h4>Licenses</h4>
                   <span>Curacao eGaming</span>
                   <h4>Languages</h4>
-                  <span>English, Estonian, Latvian/Lettish, Polish, Russian, Swedish</span>
+                  <span>English, Arabic, Czech, German, Spanish, Finnish, French, Hindi, Japanese, Norwegian, Polish, Portuguese, Russian</span>
                   <h4>Verification</h4>
                   <span>Fast</span>
                   <h4>VPN</h4>
@@ -167,7 +166,7 @@ const LdReview = () => {
               <div className="col-md-6">
                 <div className="Details-area-one">
                   <h4>Total Games</h4>
-                  <span>9000+ Games</span>
+                  <span>2000+ Games</span>
                   <h4>Categories</h4>
                   <span>Video Slots, Jackpot Slots, Classic Slots, Fruit Slots, Vegas Slots, High Roller Slots, Exclusive Slots, Live Casino Games, Roulette Games, Blackjack Games, Baccarat Games, Poker Games, Sic Bo Games, Dice Casino Games, VIP Table Games, Video Poker, Bingo, Scratch Cards</span>
                 
@@ -192,34 +191,35 @@ const LdReview = () => {
               <div className="col-md-12">
                 <div className="Details-area-one">
                 <h4> Casino Review</h4>
-                  <span>Finding the right online casino can be difficult, with hundreds of sites available at your fingertips. Lucky Dreams might be for you if you're looking for a hybrid casino with great game variety and superb promotions. <br />
+                  <span>Unleash your inner child for epic adventures and royal rewards at BitKingz Casino. This thrilling online casino comes with a modern design, great bonuses and over 2,000 casino games. <br />
 
-Lucky Dreams Casino is home to over 9,500+ online casino games from top software developers; it caters to fiat and cryptocurrency players and has plenty of exciting promotions to boost gameplay. This includes its Pick & Dream daily bonuses and the crypto lottery. <br />
+The casino opened its doors earlier in 2020 and is operated by Dama N.V. In 2023 made a full redesign with a fresh new modern, and user-friendly website. It is powered by industry-leading software providers such as Yggdrasil Gaming, NetEnt and Playtech. With top security features and licensing from Curacao, it ensures a secure gaming experience. <br />
 
-Read the full CasinoWow review on Lucky Dreams Casino to see why this online operator has quickly become a favourite.</span>
+There are plenty of payment methods to choose from when funding your account, ranging from fiat to cryptocurrency options. Customer support is also available 24/7 to assist with all questions and queries.</span>
                 
                 </div>
               </div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Security and Licenses</h4>
 
-                  <span>Lucky Dreams Casino is a relatively new online casino that hit the gaming industry in 2021. It carries a Curacao Gaming License and is owned and operated by Dama N.V. As a licensed operator, it adheres to strict regulations to provide a secure gaming experience to all players. <br />
+                  <span>BitKingz Casino launched earlier in 2020 and is another online gaming space operated by Dama N.V. The casino is licensed and regulated by Curacao eGaming and adheres to strict rules and regulations. <br /> <br />
 
-Some of the safety measures in place include SSL data encryption and the latest firewall technologies. On top of that, RNG software is used to ensure game outcomes are random and fair. This RNG software is also tested randomly by independent third parties to ensure fairness. <br />
+Under the licensing agreement, the casino has plenty of security protocols to ensure player information is kept secure. This includes SSL data encryption technology, the latest firewall and malware solutions. <br /> <br />
 
-Responsible gaming is encouraged among Lucky Dreams users, and the casino has a page with access to external help resources. You can also opt to exclude yourself from gambling by contacting customer support 24/7.</span>
+BitKingz encourages responsible gambling among players and provides a number of tools for players to use. This includes account limits as well as the option to self-exclude when the need arises. </span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
               <h4> Bonuses and Promotions</h4>
 
-                  <span>Get started with a 4-deposit welcome bonus package which you can claim by registering a new player account. From there, you will be required to make a minimum deposit to claim each of the 4 bonuses. <br /> <br />
+                  <span>In the pixelated kingdom of BitKingz, you can expect to find plenty of bonuses and promotions. For new and loyal players, there is always a reward waiting to be claimed. <br />
 
-The first bonus can be claimed straight away, while the 2nd to 4th will require the use of a special bonus code available in the casino's Promotions section. Before any winnings can be withdrawn, the wagering requirements must be met. <br /> <br />
+New players can look forward to a generous welcome bonus package. You need to create a new casino account and make a minimum deposit. All welcome offers are subject to wagering requirements before withdrawal can be made from your account. <br />
 
-The casino has many promotions, but the Pick & Dream is by far a favourite. With this promotion, you make the required deposit and enter the bonus code DREAM. Then you pick your Lucky Shell and reveal your prize!  <br /> <br />
+Also, you can enjoy the thrill of the spinning wheel multiple times a day. There are 4 types of wheels with different spin ticket prices and corresponding prizes. <br />
 
-Let's not forget the Lucky Dreams VIP program, where players are rewarded for their loyalty. The program runs on different travel destinations starting from Atlantic City, with the hope of getting all the way to Las Vegas. With each new destination you reach, you unlock bigger and better rewards, including a trip to Las Vegas when you reach your final destination.</span>
+For loyal players, there are daily offers to enjoy, including King’z Chest. The casino also has a superb VIP program that allows you to enjoy a few gamification features. You will be entering another world, starting to collect King'z Points, and with each level, enjoy more perks, try them all and get the real VIP feeling. With each new level, bigger and better rewards await. <br />
+</span>
                 
               </div></div>
               <div className="col-md-12">    <div className="Details-area-one">
@@ -259,4 +259,4 @@ Let's not forget the Lucky Dreams VIP program, where players are rewarded for th
   );
 };
 
-export default LdReview;
+export default Bitkin;

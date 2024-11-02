@@ -532,7 +532,7 @@ const CasinoDataOne = () => {
              <div className="casino-pay">
                <a href="https://slotuna.com/en/">play</a>
              </div>
-               <a href="/sat" className="button_review"> read review</a>
+               <a href="/slo" className="button_review"> read review</a>
            </div>
            
        </div>
@@ -745,7 +745,7 @@ const CasinoDataOne = () => {
              <div className="casino-pay">
                <a href="https://www.bets.io/">play</a>
              </div>
-               <a href="/Betsio" className="button_review"> read review</a>
+               <a href="/Bets" className="button_review"> read review</a>
            </div>
            
        </div>
@@ -890,7 +890,7 @@ const CasinoDataOne = () => {
            <div className="col-md-3">
              <div className="casino-name">
                  <h2>
-                 CasiGO Casino  </h2>
+                 Spinanga Casino   </h2>
              </div>
            </div>
            <div className="col-md-2">

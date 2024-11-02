@@ -243,12 +243,12 @@ To activate this wheel of fortune, visit the slot section of the casino and star
                   <ul>
                     <li><img src={bet2} alt="" /><a href="/BetReview">	
                     BitStarz Casino</a></li>
-                    <li><img src={waz} alt="" /><a href="">Wazamba Casino</a></li>
-                    <li><img src={lat} alt="" /><a href="">Let’s Lucky Casino</a></li>
-                    <li><img src={tv} alt="" /><a href="">	
+                    <li><img src={waz} alt="" /><a href="/wazaCasino">Wazamba Casino</a></li>
+                    <li><img src={lat} alt="" /><a href="/luckyCasino">Let’s Lucky Casino</a></li>
+                    <li><img src={tv} alt="" /><a href="/lvCasino">	
                     LV BET Casino</a></li>
-                    <li><img src={ld} alt="" /><a href="">Lucky Dreams Casino</a></li>
-                    <li><img src={nomini} alt="" /><a href="">Nomini Casino</a></li>
+                    <li><img src={ld} alt="" /><a href="/luckyDream">Lucky Dreams Casino</a></li>
+                    <li><img src={nomini} alt="" /><a href="/nomini">Nomini Casino</a></li>
                   </ul>
                 </div>
               </div>
