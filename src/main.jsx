@@ -27,6 +27,7 @@ import Slo from './pages/Slo.jsx'
 import Spi from './pages/Spi.jsx'
 import Swi from './pages/Swi.jsx'
 import Thun from './pages/Thun.jsx'
+import Top from './pages/Top.jsx'
 import Waza from './pages/Waza.jsx'
 import Wid from './pages/Wid.jsx'
 import Yetbet from './pages/Yetbet.jsx'
@@ -50,6 +51,12 @@ const router = createBrowserRouter([
     path:'/Crypto-casino',
     element:<Anonymous></Anonymous>
   },
+
+  {
+    path:'/Top',
+    element:<Top></Top>
+  },
+
 
 
 

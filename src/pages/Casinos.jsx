@@ -136,55 +136,70 @@ const Casinos = () => {
           <div className="row">
           <div className="casino-bottom-side-ber">
               <div className="bottom-right-side-two">
-                <h1>Welcome to the Amazing World of Online Casino Games for Real Money ?</h1>
-                <p>The online gambling world is a vast environment filled with a plethora of casino games to keep you entertained with the potential to bring in wins. If you have seen it on a casino floor somewhere, there is a good chance that a digital version of the game is available to play from either your desktop or mobile device. <br /><br />
-  
-                Obviously, if you are new to the casino world, you might not know what games appeal to you. At CasinoWow, we have strived to make the transition into this industry an easy one, with a great page like this that is not only filled with pertinent information about the different forms of online casino games but has provided helpful links and aids to get you started in this thrilling environment.</p>
-              </div>
-  
-              </div>
-              <div className="casino-bottom-side-ber">
-              <div className="bottom-right-side-two">
-                <h1>Most Popular Games on the web</h1>
-                <p>Casino games are generally split up into various subcategories to make navigating yourself around a casino site far more user-friendly. Below is a list of some of the more popular types of games played at online casinos around the globe. <br /> <br />
+                <h1>Reliability</h1>
+                <p>When the team at CasinoWow assesses the reliability of the brand, we look into several factors which we believe will have an impact on not only their ability to thrive in a competitive landscape but also whether or not they will treat you well now and for the future. <br /> 
 
-Slot Machines
-The most popular form of games at online casinos today is Slots. Online slots are the Number 1 stop among new and veteran players. They provide hours of entertainment and FUN and are so many that you'll never get bored of slot games. At CasinoWow, we have featured the best slot titles and in-depth reviews of online casinos providing them.</p>
-              </div>
-  
-              </div>
-              <div className="casino-bottom-side-ber">
-              <div className="bottom-right-side-two">
-                <h1>Skill Games</h1>
-                <p>Games like Blackjack require human decisions to determine the outcomes of the game. In fact, most card games and roulette require human intervention in some way that can swing the edge of the game. Because of this, the house edge is much lower, which means that your chance of winning is much higher. For this reason, you will need to know the rules and other tips involved in playing these games to be successful. The payouts can be quite good, but nothing like the jackpots that can be won on randomly managed games.</p>
-              </div>
-  
-              </div>
-              <div className="casino-bottom-side-ber">
-              <div className="bottom-right-side-two">
-                <h1>Random Results</h1>
-                <p>The clearest example of such a game is casino slot games. The player has absolutely no bearing on the result of the game. They just spin the reels and hold their thumbs in hopes of a favourable outcome. All outcomes are completely random and are controlled by a sophisticated random number generator that holds very little bias. No casino, provider, or player can tell when the next win will be made.
+Our ideal top online casino review will have a solid business infrastructure, being correctly incorporated and having been granted the full suite of regional licenses as this shows they can be trusted with your time and your money. <br />
 
-The house edge is far more favourable to the casino in this instance, which means you have less chance of making wins here than in table games. However, the jackpots and high wins are generally far more lucrative, not to mention the atmosphere of the game being far more attractive.</p>
+They will also be part of the larger trusted group of online casinos or be an independent with a proven track record of security and trustworthiness. We avoid any new casinos which have ties to blacklisted or untrustworthy casino groups.</p>
               </div>
   
               </div>
               <div className="casino-bottom-side-ber">
               <div className="bottom-right-side-two">
-                <h1>Good Advice</h1>
-                <p>We advise if you are new to the casino gaming industry, or to a particular type of game, that you try our slots in free play mode. This will allow you to play and get a feel for a slot game with virtual money, which means you can save your real cash for real play casinos once you have got the knack of the gameplay and rules.
+                <h1>Customer Care</h1>
+                <p>While any online casino can claim to have a Customer Service or Customer Support team when we do our in-depth review of a brand to see if it deserves the CasinoWow stamp of approval we look beyond service and look to see if they offer Customer Care. <br />
 
-Make sure that you make use of our comprehensive list of game guides to help familiarise yourself with specific game rules and procedures, as well as our list of the latest casino bonuses. All of this will stand you in good stead to become a more successful online gambler.</p>
+We focus on whether or not the person assisting us is knowledgeable and able to help us with account and system queries efficiently. When you call back will the agent check your account to see if there is a history and use this information to expedite query resolution? <br />
+
+Should the query require it, can you trust their team to call you back or respond with requested information when they said they would? <br />
+
+We also take into account how accessible the Customer Care staff are – do they offer email, live chat, and a tax-free phone line? If not, then what are they hiding? Are they active on social media – do they respond in a timely manner to questions sent to them via their social media accounts, such as Facebook?</p>
               </div>
   
               </div>
               <div className="casino-bottom-side-ber">
+              <div className="bottom-right-side-two">
+                <h1>Deposit and Withdrawal Speed</h1>
+                <p>Something we frequently hear when it comes to cashing out at online gambling sites is “they take my money immediately, so I want it back immediately”, while there are casinos out there which offer payouts within hours of you hitting the cashout button it is not yet an industry norm. <br />
+
+There are however many great online casinos which offer payouts within 1-2 business days and will do so without delay time, and time again, this payout consistency is a great trust factor which we value as highly as speediness. <br />
+
+When it comes to cashing out that progressive jackpot wins, you will be completely at ease if you know the casino you play with has a longstanding history of successful, hassle-free payouts.</p>
+              </div>
+  
+              </div>
+              <div className="casino-bottom-side-ber">
+              <div className="bottom-right-side-two">
+                <h1>Bonuses and Promotions</h1>
+                <p>There is nothing better than a big shiny bonus and a promotion that offers seemingly mind-blowing prizes – or is there? Our review team spends time understanding not only the surface offer but also the nitty-gritty of the terms and conditions of each promotion to ensure we bring you promotions which balance amazing value and prizes while also ensuring the terms are clear and easy to adhere too. <br />
+
+When looking at casino bonuses, you need to consider if there are any minimum deposits required to either activate the promotion or to allow you to cash out your winnings. In the case of many no deposit bonuses the casinos limit the cashout amount, imagine not knowing this and winning a mega jackpot while only being able to withdrawal a fraction of the win. In this case, a deposit match bonus might suit your taste for jackpot hunting better. <br />
+
+Promotions offer great value in that they offer rich rewards like holidays, electronics and more. However, they usually require certain deposit limits to be met to qualify for the higher tier prizes, or may limit certain prizes, say a boat cruise, to residents of specific countries. Knowing these terms and conditions upfront ensures you enjoy the casino while avoiding undue disappointments. <br />
+
+You can rest assured that a CasinoWow promoted bonus or promotion will have been thoroughly vetted, so you don’t have any surprise terms disrupting your fun and entertainment.</p>
+              </div>
+  
+              </div>
+              <div className="casino-bottom-side-ber">
+              <div className="bottom-right-side-two">
+                <h1>Casino Games Selection</h1>
+                <p>It is amazing how the quality of casino games for real money has improved over the years, best of all the top tier casino software providers like NetEnt and Microgaming offer their best and brightest games for play on your mobile phone and tablet! <br />
+
+Reviewing the online casino games on offer is large part of our offering on CasinoWow, we look into graphical and sound design, cross-platform playability (is mobile as good as pc and vice versa), bonus features and mini-games, the jackpot pools and payouts on offer, and last but not least the propensity of the game to actually produce the advertised payouts. <br />
+
+Another key game selection item to consider is whether or not the casino is a single or multiple software provider casinos. Historically a casino offered the games from a single provider say Playtech, however with the advent of secure mobile and browser-based gambling means players have been able to join new online casinos for real money which offer access to the best games from a wide range of Casino Software Providers all under one roof. <br /></p>
+              </div>
+  
+              </div>
+              {/* <div className="casino-bottom-side-ber">
               <div className="bottom-right-side-two">
                 <h1>Rest Assured</h1>
                 <p>Rest assured that when choosing to play game titles from our CasinoWow lists, that you are partaking of games from the finest software companies in the world. When opting to play these games for real money, each casino offer has been vetted by us for ethical gameplay and top service standards.</p>
               </div>
   
-              </div>
+              </div> */}
 
           </div>
         </div>
