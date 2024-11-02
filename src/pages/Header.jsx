@@ -48,12 +48,12 @@ const Header = () => {
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/Anonymous">
+                          <a className="dropdown-item" href="/Crypto-casino">
                           Crypto Casinos
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/Live">
+                          <a className="dropdown-item" href="/Top">
                           Top Online Casinos
                           </a>
                         </li>
@@ -173,7 +173,7 @@ const Header = () => {
 
                     <a
                         className="nav-link "
-                        href="/review"
+                        href="/Crypto"
                         role=""
                         data-bs-toggle=""
                         aria-expanded=""
@@ -183,7 +183,7 @@ const Header = () => {
 
                     <a
                         className="nav-link "
-                        href="/review"
+                        href="/Slots"
                         role=""
                         data-bs-toggle=""
                         aria-expanded=""

@@ -5,11 +5,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import './index.css'
 import AllCasino from './pages/AllCasino.jsx'
+import Anonymous from './pages/Anonymous.jsx'
 import BetReview from './pages/BetReview.jsx'
 import Bets from './pages/Bets.jsx'
 import Bitkin from './pages/Bitkin.jsx'
 import Btf from './pages/Btf.jsx'
 import Casi from './pages/Casi.jsx'
+import Casinos from './pages/Casinos.jsx'
 import Fortune from './pages/Fortune.jsx'
 import Gosol from './pages/Gosol.jsx'
 import Immer from './pages/Immer.jsx'
@@ -39,6 +41,19 @@ const router = createBrowserRouter([
     path:'/allCasino',
     element:<AllCasino></AllCasino>
   },
+  {
+    path:'/Casinos',
+    element:<Casinos></Casinos>
+  },
+
+  {
+    path:'/Crypto-casino',
+    element:<Anonymous></Anonymous>
+  },
+
+
+
+  // review page
   {
     path:'/BetReview',
     element:<BetReview></BetReview>

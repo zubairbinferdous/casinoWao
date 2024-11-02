@@ -3,6 +3,13 @@ import cas from "../assets/casino-bonuses(1).webp";
 import CasinoDataOne from "./CasinoDataOne";
 import Footer from "./Footer";
 import Header from "./Header";
+/* eslint-disable no-unused-vars */
+import "../App.css";
+import betF from "../assets/betflare-io-casino-icon.webp";
+import lett from "../assets/letslucky-casino-icon (1).webp";
+import swi from '../assets/Swiper-casino-icon.webp';
+import waz from "../assets/wazamba-casino-icon1.png";
+import ybet from "../assets/Ybets-casino-icon.webp";
 
 const AllCasino = () => {
   return (
@@ -14,49 +21,38 @@ const AllCasino = () => {
             <h3> Online Casino Reviews & Ratings 2024</h3>
 
 <p>
-  Find your perfect new online casino by browsing 100% trusted,
-  independent and helpful casino reviews by our WOW team of real
-  players. Read unbiased reviews of the best online and mobile casinos
-  available today. Tip: use the filters to find your favourite new
-  casino instantly!
+Find your perfect new online casino by browsing 100% trusted, independent and helpful casino reviews by our WOW team of real players. Read unbiased reviews of the best online and mobile casinos available today. Tip: use the filters to find your favourite new casino instantly!
 </p>
 
             </div>
           </div>
           <div className="row">
-            <div className="col-md-2">
-                <div className="casino-menu ">
-                    <h2>Popular</h2>
-                    <ul className="menu-area">
-                        <li> <a href="/home">Online Casinos</a> </li>
-                        <li> <a href="/home">Crypto Casinos</a> </li>
-                        <li> <a href="/home">Casino Reviews</a> </li>
-                        <li> <a href="/home">Top Online Casinos</a> </li>
-                    </ul>
-                </div>
+          <div className="col-md-2">
+                  <div className="casino-menu ">
+                      <h2>Popular</h2>
+                      <ul className="menu-area">
+                          <li> <a href="/Casinos">Online Casinos</a> </li>
+                          <li> <a href="/Crypto">Crypto Casinos</a> </li>
+                          <li> <a href="/allCasino">Casino Reviews</a> </li>
+                          <li> <a href="/Top">Top Online Casinos</a> </li>
+                      </ul>
+                  </div>
 
-              
-               
-            </div>
+              </div>
+
              
              <CasinoDataOne></CasinoDataOne>
+
+
+             
            
           </div>
       </div>
 
-      <div className="container-fluid bg-color2">
+      <div className="container-fluid bg-color-with">
         <div className="container mt20">
-        <div className="row pd-30 text-center">
-          <h4>Latest Online Casino Games</h4>
-          <p>
-            Find out everything you need to know about the exciting new slot
-            releases and choose from the best casino games of 2024. Simply use
-            our handy game categories and you'll quickly find the perfect online
-            slot, table game, live dealer game, and more to suit your style and
-            needs.
-          </p>
-        </div>
-          <div className="row pd-20 text-center ">
+          <div className="row pd-20 text-center">
+            <h4>Top 5 Bonus Offers - October 2024</h4>
             <div className="col-md-2">
               <div className="casino-bonus-data-area">
                 <img src={cas} alt="" />
@@ -70,57 +66,64 @@ const AllCasino = () => {
             </div>
             <div className="col-md-2">
               <div className="casino-bonus-data-area">
-                <img src={cas} alt="" />
-                <h3>Casino Bonuses list for October 2024</h3>
+                <img src={swi} alt="" />
+                <h3>
+                Swiper Casino: 100% up to $/€500 + 200 Bonus Spins                    </h3>
                 <p>
-                  Take a look at our list of fantastic casino bonuses and cash
-                  in one that can kickstart the fun!
+                T&C's Apply
+
+New players only. Min deposit $/€20. Ewallets excluded. Wagering requirement 35x deposit & ...
+
                 </p>
-                <a href="">see all</a>
+                <a href="https://swiper.com/en/">Get Bonus</a>
               </div>
             </div>
             <div className="col-md-2">
               <div className="casino-bonus-data-area">
-                <img src={cas} alt="" />
-                <h3>Casino Bonuses list for October 2024</h3>
+                <img src={ybet} alt="" />
+                <h3>
+                Ybets Casino: 500% up to $/€ 8000 Welcome Package                    </h3>
                 <p>
-                  Take a look at our list of fantastic casino bonuses and cash
-                  in one that can kickstart the fun!
+                T&C's Apply
+
+Choose one of the 7 welcome offers for new players. For every $/€ 1 you deposit you get 1 ...
                 </p>
-                <a href="">see all</a>
+                <a href="https://ybets.net/">Get Bonus</a>
               </div>
             </div>
             <div className="col-md-2">
               <div className="casino-bonus-data-area">
-                <img src={cas} alt="" />
-                <h3>Casino Bonuses list for October 2024</h3>
+                <img src={betF} alt="" />
+                <h3>
+                Betflare.io Casino: 250% up to $/€ 2000 + 300 Bonus ...                    </h3>
                 <p>
-                  Take a look at our list of fantastic casino bonuses and cash
-                  in one that can kickstart the fun!
+                T&C's Apply
+
+New players only. The offer is spread over the first 4 deposits. Min deposit $/€ 15. ...
                 </p>
-                <a href="">see all</a>
+                <a href="https://betflare.io/en?token=fD7Aj14cKZ_lr7__-UW0jWNd7ZgqdRLk">Get Bonus</a>
               </div>
             </div>
             <div className="col-md-2">
               <div className="casino-bonus-data-area">
-                <img src={cas} alt="" />
-                <h3>Casino Bonuses list for October 2024</h3>
+                <img src={lett} alt="" />
+                <h3>
+                Let’s Lucky Casino: Up to $/€ 4500 + up to 300 Bonus Spins                    </h3>
                 <p>
-                  Take a look at our list of fantastic casino bonuses and cash
-                  in one that can kickstart the fun!
+                T&C's Apply. New players only. Min deposit for match bonus $/€ 10. LV spins are available...
                 </p>
-                <a href="">see all</a>
+                <a href="https://www.letslucky.com/">Get Bonus</a>
               </div>
             </div>
             <div className="col-md-2">
               <div className="casino-bonus-data-area">
-                <img src={cas} alt="" />
-                <h3>Casino Bonuses list for October 2024</h3>
+                <img src={waz} alt="" />
+                <h3>100% up to €500/ ₹40,000 + 200 Bonus Spins
+                </h3>
                 <p>
-                  Take a look at our list of fantastic casino bonuses and cash
-                  in one that can kickstart the fun!
+                T&C's Apply. New players only. Min deposit for deposit match offer is $/€ 10. Ewallets excluded ...
                 </p>
-                <a href="">see all</a>
+                <a href="https://wazamba.com/">Get Bonus</a>
               </div>
             </div>
           </div>
