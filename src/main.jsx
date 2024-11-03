@@ -9,23 +9,32 @@ import Anonymous from './pages/Anonymous.jsx'
 import BetReview from './pages/BetReview.jsx'
 import Bets from './pages/Bets.jsx'
 import Bitkin from './pages/Bitkin.jsx'
+import Bonuses from './pages/Bonuses.jsx'
 import Btf from './pages/Btf.jsx'
 import Casi from './pages/Casi.jsx'
 import Casinos from './pages/Casinos.jsx'
 import Fortune from './pages/Fortune.jsx'
 import Gosol from './pages/Gosol.jsx'
+import Guide from './pages/Guide.jsx'
 import Immer from './pages/Immer.jsx'
 import King from './pages/King.jsx'
 import LdReview from './pages/LdReview.jsx'
 import Lib from './pages/Lib.jsx'
 import Lucky from './pages/Lucky.jsx'
 import LvCasino from './pages/LvCasino.jsx'
+import MobileCasino from './pages/MobileCasino.jsx'
+import Moblie from './pages/Moblie.jsx'
 import Nomini from './pages/Nomini.jsx'
+import Offers from './pages/Offers.jsx'
+import OnlineGame from './pages/OnlineGame.jsx'
 import Roob from './pages/Roob.jsx'
 import Set from './pages/Set.jsx'
 import Slo from './pages/Slo.jsx'
+import Slot from './pages/Slot.jsx'
+import SlotsCasinoData from './pages/SlotsCasinoData.jsx'
 import Spi from './pages/Spi.jsx'
 import Swi from './pages/Swi.jsx'
+import Table from './pages/Table.jsx'
 import Thun from './pages/Thun.jsx'
 import Top from './pages/Top.jsx'
 import Waza from './pages/Waza.jsx'
@@ -56,6 +65,69 @@ const router = createBrowserRouter([
     path:'/Top',
     element:<Top></Top>
   },
+
+
+  {
+    path:'/Bonuses',
+    element:<Bonuses></Bonuses>
+  },
+
+
+  {
+    path:'/Offers',
+    element:<Offers></Offers>
+  },
+
+  {
+    path:'/Mobile',
+    element:<Moblie></Moblie>
+  },
+
+  {
+    path:'/Guides',
+    element:<Guide></Guide>
+  },
+
+
+
+
+
+  {
+    path:'/OnlineGames',
+    element:<OnlineGame></OnlineGame>
+  },
+  {
+    path:'/Slot',
+    element:<Slot></Slot>
+  },
+  {
+    path:'/table',
+    element:<Table></Table>
+  },
+  {
+    path:'/MobileGame',
+    element:<MobileCasino></MobileCasino>
+  },
+
+
+
+  {
+    path:'/Crypto',
+    element:<Anonymous></Anonymous>
+  },
+  {
+    path:'/Slots-Casino',
+    element:<SlotsCasinoData></SlotsCasinoData>
+  },
+
+
+
+
+
+
+
+
+  
 
 
 

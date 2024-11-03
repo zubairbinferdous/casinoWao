@@ -108,22 +108,22 @@ const Header = () => {
                       <ul className="dropdown-menu">
                      
                         <li>
-                          <a className="dropdown-item" href="/DOGE">
+                          <a className="dropdown-item" href="/Bonuses">
                           Casino Bonuses
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/eth">
+                          <a className="dropdown-item" href="/Offers">
                           Top 5 Casino Offers
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/ltc">
+                          <a className="dropdown-item" href="/Mobile">
                           Top Mobile Casino Deals
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/mon">
+                          <a className="dropdown-item" href="/Guides">
                           Bonus Guides
                           </a>
                         </li>
@@ -147,23 +147,23 @@ const Header = () => {
                       </a>
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href='/Australia'>
+                          <a className="dropdown-item" href='/OnlineGames'>
                           Online Casino Games
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/Brasil">
-                          Online Casino Games
+                          <a className="dropdown-item" href="/Slot">
+                          Slot Casino Games
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/Canada">
+                          <a className="dropdown-item" href="/Table">
                           Table Games
                           </a>
                         </li>
     
                         <li>
-                          <a className="dropdown-item" href="/Español">
+                          <a className="dropdown-item" href="/MobileGame">
                           Mobile Games
                           </a>
                         </li>
@@ -183,7 +183,7 @@ const Header = () => {
 
                     <a
                         className="nav-link "
-                        href="/Slots"
+                        href="/Slots-Casino"
                         role=""
                         data-bs-toggle=""
                         aria-expanded=""

@@ -44,49 +44,7 @@ const CasinoDataTwo = () => {
   
   
 
-  
-         <div className="data-area-section">
-         <div className="row">
-           <div className="col-md-2">
-             <div className="casino-img ">
-               <img src={casiGo} alt="" />
-             </div>
-           </div>
-           <div className="col-md-3">
-             <div className="casino-name">
-                 <h2>
-                 CasiGO Casino  </h2>
-             </div>
-           </div>
-           <div className="col-md-2">
-             <div className="casino-provide">
-             <h4>Providers:</h4>
-             <div className="casino-img-icon">
-           
-             <img src={iOne} alt="" />
-             <img src={ithree} alt="" />
-             <img src={ifive} alt="" />
-             <img src={isix} alt="" />
-             
-            
-             </div>
-             </div>
-           </div>
-           <div className="col-md-2">
-             <div className="casino-payout">
-                 <h4>payout :</h4>
-                 <p>Within 48 hours</p>
-             </div>
-           </div>
-           <div className="col-md-3 text-center">
-             <div className="casino-pay">
-               <a href="https://www.casigo.com/">play</a>
-             </div>
-               <a href="/casi" className="button_review"> read review</a>
-           </div>
-           
-       </div>
-         </div>
+
 
 
          <div className="data-area-section">
@@ -171,6 +129,50 @@ const CasinoDataTwo = () => {
                <a href="https://wild.io">play</a>
              </div>
                <a href="/wid" className="button_review"> read review</a>
+           </div>
+           
+       </div>
+         </div>
+
+           
+         <div className="data-area-section">
+         <div className="row">
+           <div className="col-md-2">
+             <div className="casino-img ">
+               <img src={casiGo} alt="" />
+             </div>
+           </div>
+           <div className="col-md-3">
+             <div className="casino-name">
+                 <h2>
+                 CasiGO Casino  </h2>
+             </div>
+           </div>
+           <div className="col-md-2">
+             <div className="casino-provide">
+             <h4>Providers:</h4>
+             <div className="casino-img-icon">
+           
+             <img src={iOne} alt="" />
+             <img src={ithree} alt="" />
+             <img src={ifive} alt="" />
+             <img src={isix} alt="" />
+             
+            
+             </div>
+             </div>
+           </div>
+           <div className="col-md-2">
+             <div className="casino-payout">
+                 <h4>payout :</h4>
+                 <p>Within 48 hours</p>
+             </div>
+           </div>
+           <div className="col-md-3 text-center">
+             <div className="casino-pay">
+               <a href="https://www.casigo.com/">play</a>
+             </div>
+               <a href="/casi" className="button_review"> read review</a>
            </div>
            
        </div>
