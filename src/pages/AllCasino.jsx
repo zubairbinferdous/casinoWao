@@ -61,7 +61,7 @@ Find your perfect new online casino by browsing 100% trusted, independent and he
                   Take a look at our list of fantastic casino bonuses and cash
                   in one that can kickstart the fun!
                 </p>
-                <a href="">see all</a>
+                <a href="/Casinos">see all</a>
               </div>
             </div>
             <div className="col-md-2">
@@ -129,6 +129,8 @@ New players only. The offer is spread over the first 4 deposits. Min deposit $/â
           </div>
         </div>
       </div>
+
+      
       <div className="container">
         <div className="row">
         <div className="casino-bottom-side-ber">

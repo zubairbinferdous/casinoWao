@@ -54,87 +54,85 @@ On this CasinoWow page dedicated to crypto, we look at the best online crypto ca
         </div>
   
         <div className="container-fluid bg-color-with">
-          <div className="container mt20">
-            <div className="row pd-20 text-center">
-              <h4>Top 5 Bonus Offers - October 2024</h4>
-              <div className="col-md-2">
-                <div className="casino-bonus-data-area">
-                  <img src={cas} alt="" />
-                  <h3>Casino Bonuses list for October 2024</h3>
-                  <p>
-                    Take a look at our list of fantastic casino bonuses and cash
-                    in one that can kickstart the fun!
-                  </p>
-                  <a href="">see all</a>
-                </div>
+        <div className="container mt20">
+          <div className="row pd-20 text-center">
+            <h4>Top 5 Bonus Offers - October 2024</h4>
+            <div className="col-md-2">
+              <div className="casino-bonus-data-area">
+                <img src={cas} alt="" />
+                <h3>Casino Bonuses list for October 2024</h3>
+                <p>
+                  Take a look at our list of fantastic casino bonuses and cash
+                  in one that can kickstart the fun!
+                </p>
+                <a href="/Casinos">see all</a>
               </div>
+            </div>
+            <div className="col-md-2">
+              <div className="casino-bonus-data-area">
+                <img src={swi} alt="" />
+                <h3>
+                Swiper Casino: 100% up to $/€500 + 200 Bonus Spins                    </h3>
+                <p>
+                T&C's Apply
 
-              <div className="col-md-2">
-                <div className="casino-bonus-data-area">
-                  <img src={lett} alt="" />
-                  <h3>
-                  Let’s Lucky Casino: Up to $/€ 4500 + up to 300 Bonus Spins                    </h3>
-                  <p>
-                  T&C's Apply. New players only. Min deposit for match bonus $/€ 10. LV spins are available...
-                  </p>
-                  <a href="https://www.letslucky.com/">Get Bonus</a>
-                </div>
-              </div>
-              <div className="col-md-2">
-                <div className="casino-bonus-data-area">
-                  <img src={waz} alt="" />
-                  <h3>100% up to €500/ ₹40,000 + 200 Bonus Spins
-                  </h3>
-                  <p>
-                  T&C's Apply. New players only. Min deposit for deposit match offer is $/€ 10. Ewallets excluded ...
-                  </p>
-                  <a href="https://wazamba.com/">Get Bonus</a>
-                </div>
-              </div>
-              <div className="col-md-2">
-                <div className="casino-bonus-data-area">
-                  <img src={swi} alt="" />
-                  <h3>
-                  Swiper Casino: 100% up to $/€500 + 200 Bonus Spins                    </h3>
-                  <p>
-                  T&C's Apply
-  
-  New players only. Min deposit $/€20. Ewallets excluded. Wagering requirement 35x deposit & ...
-  
-                  </p>
-                  <a href="https://swiper.com/en/">Get Bonus</a>
-                </div>
-              </div>
-              <div className="col-md-2">
-                <div className="casino-bonus-data-area">
-                  <img src={ybet} alt="" />
-                  <h3>
-                  Ybets Casino: 500% up to $/€ 8000 Welcome Package                    </h3>
-                  <p>
-                  T&C's Apply
-  
-  Choose one of the 7 welcome offers for new players. For every $/€ 1 you deposit you get 1 ...
-                  </p>
-                  <a href="https://ybets.net/">Get Bonus</a>
-                </div>
-              </div>
-              <div className="col-md-2">
-                <div className="casino-bonus-data-area">
-                  <img src={betF} alt="" />
-                  <h3>
-                  Betflare.io Casino: 250% up to $/€ 2000 + 300 Bonus ...                    </h3>
-                  <p>
-                  T&C's Apply
-  
-  New players only. The offer is spread over the first 4 deposits. Min deposit $/€ 15. ...
-                  </p>
-                  <a href="https://betflare.io/en?token=fD7Aj14cKZ_lr7__-UW0jWNd7ZgqdRLk">Get Bonus</a>
-                </div>
-              </div>
+New players only. Min deposit $/€20. Ewallets excluded. Wagering requirement 35x deposit & ...
 
+                </p>
+                <a href="https://swiper.com/en/">Get Bonus</a>
+              </div>
+            </div>
+            <div className="col-md-2">
+              <div className="casino-bonus-data-area">
+                <img src={ybet} alt="" />
+                <h3>
+                Ybets Casino: 500% up to $/€ 8000 Welcome Package                    </h3>
+                <p>
+                T&C's Apply
+
+Choose one of the 7 welcome offers for new players. For every $/€ 1 you deposit you get 1 ...
+                </p>
+                <a href="https://ybets.net/">Get Bonus</a>
+              </div>
+            </div>
+            <div className="col-md-2">
+              <div className="casino-bonus-data-area">
+                <img src={betF} alt="" />
+                <h3>
+                Betflare.io Casino: 250% up to $/€ 2000 + 300 Bonus ...                    </h3>
+                <p>
+                T&C's Apply
+
+New players only. The offer is spread over the first 4 deposits. Min deposit $/€ 15. ...
+                </p>
+                <a href="https://betflare.io/en?token=fD7Aj14cKZ_lr7__-UW0jWNd7ZgqdRLk">Get Bonus</a>
+              </div>
+            </div>
+            <div className="col-md-2">
+              <div className="casino-bonus-data-area">
+                <img src={lett} alt="" />
+                <h3>
+                Let’s Lucky Casino: Up to $/€ 4500 + up to 300 Bonus Spins                    </h3>
+                <p>
+                T&C's Apply. New players only. Min deposit for match bonus $/€ 10. LV spins are available...
+                </p>
+                <a href="https://www.letslucky.com/">Get Bonus</a>
+              </div>
+            </div>
+            <div className="col-md-2">
+              <div className="casino-bonus-data-area">
+                <img src={waz} alt="" />
+                <h3>100% up to €500/ ₹40,000 + 200 Bonus Spins
+                </h3>
+                <p>
+                T&C's Apply. New players only. Min deposit for deposit match offer is $/€ 10. Ewallets excluded ...
+                </p>
+                <a href="https://wazamba.com/">Get Bonus</a>
+              </div>
             </div>
           </div>
         </div>
+      </div>
         <div className="container">
           <div className="row">
           <div className="casino-bottom-side-ber">

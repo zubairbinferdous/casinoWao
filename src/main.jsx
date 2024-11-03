@@ -121,17 +121,6 @@ const router = createBrowserRouter([
   },
 
 
-
-
-
-
-
-
-  
-
-
-
-
   // review page
   {
     path:'/BetReview',

@@ -53,17 +53,17 @@ const Footer = () => {
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="/Anonymous">
+                    <a className="dropdown-item" href="/Crypto-casino">
                     Crypto Casinos
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/Live">
+                    <a className="dropdown-item" href="/Top">
                     Top Online Casinos
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/Live">
+                    <a className="dropdown-item" href="/allCasino">
                     All Casino Reviews
                     </a>
                   </li>
@@ -75,23 +75,23 @@ const Footer = () => {
                 <ul>
                   <h4>Bonuses</h4>
                   <li>
-                    <a className="dropdown-item" href="/Australia">
+                    <a className="dropdown-item" href="/Bonuses">
                     Casino Bonuses
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/Brasil">
+                    <a className="dropdown-item" href="/Offers">
                     Top 5 Casino Offers
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/Canada">
+                    <a className="dropdown-item" href="/Mobile">
                     Top Mobile Casino Deals
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="/Danmark">
+                    <a className="dropdown-item" href="/Guides">
                     Bonus Guides
                     </a>
                   </li>
@@ -104,17 +104,17 @@ const Footer = () => {
                 <ul>
                   <h4>  Casino Games</h4>
                   <li>
-                    <a className="dropdown-item" href="/yest">
+                    <a className="dropdown-item" href="/OnlineGames">
                     Online Casino Games
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/justBit">
-                    Table Games
+                    <a className="dropdown-item" href="/Slot">
+                    Slot Casino Games
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/JackBit">
+                    <a className="dropdown-item" href="/MobileGame">
                     Mobile Games
                     </a>
                   </li>

@@ -457,7 +457,7 @@ const Home = () => {
                 </div>
 
                 <div className="hall-button  position-area-bottom">
-                  <a href="">play now !</a>
+                  <a href="/OnlineGames">play now !</a>
                 </div>
                 <img src={helloWeen} alt="" />
               </div>
@@ -470,7 +470,7 @@ const Home = () => {
                 </div>
 
                 <div className="hall-button  position-area-bottom">
-                  <a href="">play now !</a>
+                  <a href="/Offers">play now !</a>
                 </div>
                 <img src={fiveCasino} alt="" />
               </div>
@@ -491,7 +491,7 @@ const Home = () => {
                   Take a look at our list of fantastic casino bonuses and cash
                   in one that can kickstart the fun!
                 </p>
-                <a href="">see all</a>
+                <a href="/Bonuses">see all</a>
               </div>
             </div>
             <div className="col-md-2">
@@ -589,11 +589,11 @@ New players only. The offer is spread over the first 4 deposits. Min deposit $/â
             <div className="col-md-2">
               <div className="casino-bonus-data-area">
                 <img src={game} alt="" />
-                <h3>Casino Bonuses list for October 2024</h3>
+                <h3>Casino  list for October 2024</h3>
                 <p>
                 Discover the amazing world of online casino games!
                 </p>
-                <a href="">see all</a>
+                <a href="/OnlineGames">see all</a>
               </div>
             </div>
             <div className="col-md-2">
