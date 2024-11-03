@@ -1182,6 +1182,6 @@ ul {
 
 @media (max-width: 480px) {
   .col {
-    flex: 1 0 100%;
+    flex: 1 0 calc(50% - 10px);
   } /* 1 column per row on extra-small screens */
 }
